@@ -1,0 +1,3363 @@
+id: Zenject-ReflectionBaking
+language: CSharp
+name:
+  Default: Zenject-ReflectionBaking
+qualifiedName:
+  Default: Zenject-ReflectionBaking
+type: Assembly
+modifiers: {}
+items:
+- id: Zenject.ReflectionBaking
+  commentId: N:Zenject.ReflectionBaking
+  language: CSharp
+  name:
+    CSharp: Zenject.ReflectionBaking
+    VB: Zenject.ReflectionBaking
+  nameWithType:
+    CSharp: Zenject.ReflectionBaking
+    VB: Zenject.ReflectionBaking
+  qualifiedName:
+    CSharp: Zenject.ReflectionBaking
+    VB: Zenject.ReflectionBaking
+  type: Namespace
+  assemblies:
+  - Zenject-ReflectionBaking
+  modifiers: {}
+  items:
+  - id: Zenject.ReflectionBaking.CecilExtensions
+    commentId: T:Zenject.ReflectionBaking.CecilExtensions
+    language: CSharp
+    name:
+      CSharp: CecilExtensions
+      VB: CecilExtensions
+    nameWithType:
+      CSharp: CecilExtensions
+      VB: CecilExtensions
+    qualifiedName:
+      CSharp: Zenject.ReflectionBaking.CecilExtensions
+      VB: Zenject.ReflectionBaking.CecilExtensions
+    type: Class
+    assemblies:
+    - Zenject-ReflectionBaking
+    namespace: Zenject.ReflectionBaking
+    source:
+      remote:
+        path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+      id: CecilExtensions
+      path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+      startLine: 11
+    syntax:
+      content:
+        CSharp: public static class CecilExtensions
+        VB: Public Module CecilExtensions
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - static
+      - class
+      VB:
+      - Public
+      - Module
+    items:
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.TryGetActualType(Zenject.ReflectionBaking.Mono.Cecil.TypeReference,System.Reflection.Assembly)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.TryGetActualType(Zenject.ReflectionBaking.Mono.Cecil.TypeReference,System.Reflection.Assembly)
+      language: CSharp
+      name:
+        CSharp: TryGetActualType(TypeReference, Assembly)
+        VB: TryGetActualType(TypeReference, Assembly)
+      nameWithType:
+        CSharp: CecilExtensions.TryGetActualType(TypeReference, Assembly)
+        VB: CecilExtensions.TryGetActualType(TypeReference, Assembly)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.TryGetActualType(Zenject.ReflectionBaking.Mono.Cecil.TypeReference, System.Reflection.Assembly)
+        VB: Zenject.ReflectionBaking.CecilExtensions.TryGetActualType(Zenject.ReflectionBaking.Mono.Cecil.TypeReference, System.Reflection.Assembly)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: TryGetActualType
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 13
+      syntax:
+        content:
+          CSharp: public static Type TryGetActualType(this TypeReference typeRef, Assembly assembly)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function TryGetActualType(typeRef As TypeReference, assembly As Assembly) As Type
+        parameters:
+        - id: typeRef
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        - id: assembly
+          type: System.Reflection.Assembly
+        return:
+          type: System.Type
+      overload: Zenject.ReflectionBaking.CecilExtensions.TryGetActualType*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition)
+      language: CSharp
+      name:
+        CSharp: LookupAllTypes(ModuleDefinition)
+        VB: LookupAllTypes(ModuleDefinition)
+      nameWithType:
+        CSharp: CecilExtensions.LookupAllTypes(ModuleDefinition)
+        VB: CecilExtensions.LookupAllTypes(ModuleDefinition)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition)
+        VB: Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: LookupAllTypes
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 33
+      syntax:
+        content:
+          CSharp: public static List<TypeDefinition> LookupAllTypes(this ModuleDefinition module)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function LookupAllTypes(module As ModuleDefinition) As List(Of TypeDefinition)
+        parameters:
+        - id: module
+          type: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        return:
+          type: System.Collections.Generic.List{Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition}
+      overload: Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.ImportType``1(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.ImportType``1(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition)
+      language: CSharp
+      name:
+        CSharp: ImportType<T>(ModuleDefinition)
+        VB: ImportType(Of T)(ModuleDefinition)
+      nameWithType:
+        CSharp: CecilExtensions.ImportType<T>(ModuleDefinition)
+        VB: CecilExtensions.ImportType(Of T)(ModuleDefinition)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.ImportType<T>(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition)
+        VB: Zenject.ReflectionBaking.CecilExtensions.ImportType(Of T)(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: ImportType
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 55
+      syntax:
+        content:
+          CSharp: public static TypeReference ImportType<T>(this ModuleDefinition module)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function ImportType(Of T)(module As ModuleDefinition) As TypeReference
+        parameters:
+        - id: module
+          type: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        typeParameters:
+        - id: T
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.ImportType*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.ImportType(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.Type)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.ImportType(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.Type)
+      language: CSharp
+      name:
+        CSharp: ImportType(ModuleDefinition, Type)
+        VB: ImportType(ModuleDefinition, Type)
+      nameWithType:
+        CSharp: CecilExtensions.ImportType(ModuleDefinition, Type)
+        VB: CecilExtensions.ImportType(ModuleDefinition, Type)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.ImportType(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.Type)
+        VB: Zenject.ReflectionBaking.CecilExtensions.ImportType(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.Type)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: ImportType
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 60
+      syntax:
+        content:
+          CSharp: public static TypeReference ImportType(this ModuleDefinition module, Type type)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function ImportType(module As ModuleDefinition, type As Type) As TypeReference
+        parameters:
+        - id: module
+          type: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        - id: type
+          type: System.Type
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.ImportType*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.ImportMethod``1(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.String)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.ImportMethod``1(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.String)
+      language: CSharp
+      name:
+        CSharp: ImportMethod<T>(ModuleDefinition, String)
+        VB: ImportMethod(Of T)(ModuleDefinition, String)
+      nameWithType:
+        CSharp: CecilExtensions.ImportMethod<T>(ModuleDefinition, String)
+        VB: CecilExtensions.ImportMethod(Of T)(ModuleDefinition, String)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.ImportMethod<T>(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.String)
+        VB: Zenject.ReflectionBaking.CecilExtensions.ImportMethod(Of T)(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.String)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: ImportMethod
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 65
+      syntax:
+        content:
+          CSharp: public static MethodReference ImportMethod<T>(this ModuleDefinition module, string methodName)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function ImportMethod(Of T)(module As ModuleDefinition, methodName As String) As MethodReference
+        parameters:
+        - id: module
+          type: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        - id: methodName
+          type: System.String
+        typeParameters:
+        - id: T
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.ImportMethod*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.ImportMethod(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.Type,System.String)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.ImportMethod(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.Type,System.String)
+      language: CSharp
+      name:
+        CSharp: ImportMethod(ModuleDefinition, Type, String)
+        VB: ImportMethod(ModuleDefinition, Type, String)
+      nameWithType:
+        CSharp: CecilExtensions.ImportMethod(ModuleDefinition, Type, String)
+        VB: CecilExtensions.ImportMethod(ModuleDefinition, Type, String)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.ImportMethod(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.Type, System.String)
+        VB: Zenject.ReflectionBaking.CecilExtensions.ImportMethod(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.Type, System.String)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: ImportMethod
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 70
+      syntax:
+        content:
+          CSharp: public static MethodReference ImportMethod(this ModuleDefinition module, Type type, string methodName)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function ImportMethod(module As ModuleDefinition, type As Type, methodName As String) As MethodReference
+        parameters:
+        - id: module
+          type: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        - id: type
+          type: System.Type
+        - id: methodName
+          type: System.String
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.ImportMethod*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.ImportMethod``1(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.String,System.Int32)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.ImportMethod``1(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.String,System.Int32)
+      language: CSharp
+      name:
+        CSharp: ImportMethod<T>(ModuleDefinition, String, Int32)
+        VB: ImportMethod(Of T)(ModuleDefinition, String, Int32)
+      nameWithType:
+        CSharp: CecilExtensions.ImportMethod<T>(ModuleDefinition, String, Int32)
+        VB: CecilExtensions.ImportMethod(Of T)(ModuleDefinition, String, Int32)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.ImportMethod<T>(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.String, System.Int32)
+        VB: Zenject.ReflectionBaking.CecilExtensions.ImportMethod(Of T)(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.String, System.Int32)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: ImportMethod
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 77
+      syntax:
+        content:
+          CSharp: public static MethodReference ImportMethod<T>(this ModuleDefinition module, string methodName, int numArgs)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function ImportMethod(Of T)(module As ModuleDefinition, methodName As String, numArgs As Integer) As MethodReference
+        parameters:
+        - id: module
+          type: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        - id: methodName
+          type: System.String
+        - id: numArgs
+          type: System.Int32
+        typeParameters:
+        - id: T
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.ImportMethod*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.ImportMethod(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.Type,System.String,System.Int32)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.ImportMethod(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.Type,System.String,System.Int32)
+      language: CSharp
+      name:
+        CSharp: ImportMethod(ModuleDefinition, Type, String, Int32)
+        VB: ImportMethod(ModuleDefinition, Type, String, Int32)
+      nameWithType:
+        CSharp: CecilExtensions.ImportMethod(ModuleDefinition, Type, String, Int32)
+        VB: CecilExtensions.ImportMethod(ModuleDefinition, Type, String, Int32)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.ImportMethod(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.Type, System.String, System.Int32)
+        VB: Zenject.ReflectionBaking.CecilExtensions.ImportMethod(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.Type, System.String, System.Int32)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: ImportMethod
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 83
+      syntax:
+        content:
+          CSharp: public static MethodReference ImportMethod(this ModuleDefinition module, Type type, string methodName, int numArgs)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function ImportMethod(module As ModuleDefinition, type As Type, methodName As String, numArgs As Integer) As MethodReference
+        parameters:
+        - id: module
+          type: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        - id: type
+          type: System.Type
+        - id: methodName
+          type: System.String
+        - id: numArgs
+          type: System.Int32
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.ImportMethod*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.String)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.String)
+      language: CSharp
+      name:
+        CSharp: GetMethod(TypeDefinition, String)
+        VB: GetMethod(TypeDefinition, String)
+      nameWithType:
+        CSharp: CecilExtensions.GetMethod(TypeDefinition, String)
+        VB: CecilExtensions.GetMethod(TypeDefinition, String)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.String)
+        VB: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.String)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: GetMethod
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 90
+      syntax:
+        content:
+          CSharp: public static MethodDefinition GetMethod(this TypeDefinition instance, string name)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetMethod(instance As TypeDefinition, name As String) As MethodDefinition
+        parameters:
+        - id: instance
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        - id: name
+          type: System.String
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.MethodDefinition
+      overload: Zenject.ReflectionBaking.CecilExtensions.GetMethod*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.String,System.Type[])
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.String,System.Type[])
+      language: CSharp
+      name:
+        CSharp: GetMethod(TypeDefinition, String, Type[])
+        VB: GetMethod(TypeDefinition, String, Type())
+      nameWithType:
+        CSharp: CecilExtensions.GetMethod(TypeDefinition, String, Type[])
+        VB: CecilExtensions.GetMethod(TypeDefinition, String, Type())
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.String, System.Type[])
+        VB: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.String, System.Type())
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: GetMethod
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 104
+      syntax:
+        content:
+          CSharp: public static MethodDefinition GetMethod(this TypeDefinition instance, string name, params Type[] parameterTypes)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetMethod(instance As TypeDefinition, name As String, ParamArray parameterTypes As Type()) As MethodDefinition
+        parameters:
+        - id: instance
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        - id: name
+          type: System.String
+        - id: parameterTypes
+          type: System.Type[]
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.MethodDefinition
+      overload: Zenject.ReflectionBaking.CecilExtensions.GetMethod*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.String,Zenject.ReflectionBaking.Mono.Cecil.TypeReference[])
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.String,Zenject.ReflectionBaking.Mono.Cecil.TypeReference[])
+      language: CSharp
+      name:
+        CSharp: GetMethod(TypeDefinition, String, TypeReference[])
+        VB: GetMethod(TypeDefinition, String, TypeReference())
+      nameWithType:
+        CSharp: CecilExtensions.GetMethod(TypeDefinition, String, TypeReference[])
+        VB: CecilExtensions.GetMethod(TypeDefinition, String, TypeReference())
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.String, Zenject.ReflectionBaking.Mono.Cecil.TypeReference[])
+        VB: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.String, Zenject.ReflectionBaking.Mono.Cecil.TypeReference())
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: GetMethod
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 134
+      syntax:
+        content:
+          CSharp: public static MethodDefinition GetMethod(this TypeDefinition instance, string name, params TypeReference[] parameterTypes)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetMethod(instance As TypeDefinition, name As String, ParamArray parameterTypes As TypeReference()) As MethodDefinition
+        parameters:
+        - id: instance
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        - id: name
+          type: System.String
+        - id: parameterTypes
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference[]
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.MethodDefinition
+      overload: Zenject.ReflectionBaking.CecilExtensions.GetMethod*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.String,System.Int32)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.String,System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetMethod(TypeDefinition, String, Int32)
+        VB: GetMethod(TypeDefinition, String, Int32)
+      nameWithType:
+        CSharp: CecilExtensions.GetMethod(TypeDefinition, String, Int32)
+        VB: CecilExtensions.GetMethod(TypeDefinition, String, Int32)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.String, System.Int32)
+        VB: Zenject.ReflectionBaking.CecilExtensions.GetMethod(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.String, System.Int32)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: GetMethod
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 164
+      syntax:
+        content:
+          CSharp: public static MethodDefinition GetMethod(this TypeDefinition instance, string name, int argCount)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetMethod(instance As TypeDefinition, name As String, argCount As Integer) As MethodDefinition
+        parameters:
+        - id: instance
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        - id: name
+          type: System.String
+        - id: argCount
+          type: System.Int32
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.MethodDefinition
+      overload: Zenject.ReflectionBaking.CecilExtensions.GetMethod*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.String)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.String)
+      language: CSharp
+      name:
+        CSharp: GetPropertyDefinition(TypeDefinition, String)
+        VB: GetPropertyDefinition(TypeDefinition, String)
+      nameWithType:
+        CSharp: CecilExtensions.GetPropertyDefinition(TypeDefinition, String)
+        VB: CecilExtensions.GetPropertyDefinition(TypeDefinition, String)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.String)
+        VB: Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.String)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: GetPropertyDefinition
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 178
+      syntax:
+        content:
+          CSharp: public static PropertyDefinition GetPropertyDefinition(this TypeDefinition instance, string name)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetPropertyDefinition(instance As TypeDefinition, name As String) As PropertyDefinition
+        parameters:
+        - id: instance
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        - id: name
+          type: System.String
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.PropertyDefinition
+      overload: Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute``1(Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute``1(Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider)
+      language: CSharp
+      name:
+        CSharp: HasCustomAttribute<T>(ICustomAttributeProvider)
+        VB: HasCustomAttribute(Of T)(ICustomAttributeProvider)
+      nameWithType:
+        CSharp: CecilExtensions.HasCustomAttribute<T>(ICustomAttributeProvider)
+        VB: CecilExtensions.HasCustomAttribute(Of T)(ICustomAttributeProvider)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute<T>(Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider)
+        VB: Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute(Of T)(Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: HasCustomAttribute
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 193
+      syntax:
+        content:
+          CSharp: public static bool HasCustomAttribute<T>(this ICustomAttributeProvider instance)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function HasCustomAttribute(Of T)(instance As ICustomAttributeProvider) As Boolean
+        parameters:
+        - id: instance
+          type: Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider
+        typeParameters:
+        - id: T
+        return:
+          type: System.Boolean
+      overload: Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType(Zenject.ReflectionBaking.Mono.Cecil.MethodReference,Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType(Zenject.ReflectionBaking.Mono.Cecil.MethodReference,Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      language: CSharp
+      name:
+        CSharp: ChangeDeclaringType(MethodReference, TypeReference)
+        VB: ChangeDeclaringType(MethodReference, TypeReference)
+      nameWithType:
+        CSharp: CecilExtensions.ChangeDeclaringType(MethodReference, TypeReference)
+        VB: CecilExtensions.ChangeDeclaringType(MethodReference, TypeReference)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType(Zenject.ReflectionBaking.Mono.Cecil.MethodReference, Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+        VB: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType(Zenject.ReflectionBaking.Mono.Cecil.MethodReference, Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: ChangeDeclaringType
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 213
+      syntax:
+        content:
+          CSharp: public static MethodReference ChangeDeclaringType(this MethodReference methodDef, TypeReference typeRef)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function ChangeDeclaringType(methodDef As MethodReference, typeRef As TypeReference) As MethodReference
+        parameters:
+        - id: methodDef
+          type: Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+        - id: typeRef
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType(Zenject.ReflectionBaking.Mono.Cecil.FieldReference,Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType(Zenject.ReflectionBaking.Mono.Cecil.FieldReference,Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      language: CSharp
+      name:
+        CSharp: ChangeDeclaringType(FieldReference, TypeReference)
+        VB: ChangeDeclaringType(FieldReference, TypeReference)
+      nameWithType:
+        CSharp: CecilExtensions.ChangeDeclaringType(FieldReference, TypeReference)
+        VB: CecilExtensions.ChangeDeclaringType(FieldReference, TypeReference)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType(Zenject.ReflectionBaking.Mono.Cecil.FieldReference, Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+        VB: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType(Zenject.ReflectionBaking.Mono.Cecil.FieldReference, Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: ChangeDeclaringType
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 231
+      syntax:
+        content:
+          CSharp: public static FieldReference ChangeDeclaringType(this FieldReference fieldDef, TypeReference typeRef)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function ChangeDeclaringType(fieldDef As FieldReference, typeRef As TypeReference) As FieldReference
+        parameters:
+        - id: fieldDef
+          type: Zenject.ReflectionBaking.Mono.Cecil.FieldReference
+        - id: typeRef
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.FieldReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute``1(Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute``1(Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider)
+      language: CSharp
+      name:
+        CSharp: GetCustomAttribute<T>(ICustomAttributeProvider)
+        VB: GetCustomAttribute(Of T)(ICustomAttributeProvider)
+      nameWithType:
+        CSharp: CecilExtensions.GetCustomAttribute<T>(ICustomAttributeProvider)
+        VB: CecilExtensions.GetCustomAttribute(Of T)(ICustomAttributeProvider)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute<T>(Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider)
+        VB: Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute(Of T)(Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: GetCustomAttribute
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 238
+      syntax:
+        content:
+          CSharp: public static CustomAttribute GetCustomAttribute<T>(this ICustomAttributeProvider instance)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetCustomAttribute(Of T)(instance As ICustomAttributeProvider) As CustomAttribute
+        parameters:
+        - id: instance
+          type: Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider
+        typeParameters:
+        - id: T
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.CustomAttribute
+      overload: Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      language: CSharp
+      name:
+        CSharp: GetSpecificBaseTypesAndSelf(TypeReference)
+        VB: GetSpecificBaseTypesAndSelf(TypeReference)
+      nameWithType:
+        CSharp: CecilExtensions.GetSpecificBaseTypesAndSelf(TypeReference)
+        VB: CecilExtensions.GetSpecificBaseTypesAndSelf(TypeReference)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+        VB: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: GetSpecificBaseTypesAndSelf
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 257
+      syntax:
+        content:
+          CSharp: public static IEnumerable<TypeReference> GetSpecificBaseTypesAndSelf(this TypeReference specificTypeRef)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetSpecificBaseTypesAndSelf(specificTypeRef As TypeReference) As IEnumerable(Of TypeReference)
+        parameters:
+        - id: specificTypeRef
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        return:
+          type: System.Collections.Generic.IEnumerable{Zenject.ReflectionBaking.Mono.Cecil.TypeReference}
+      overload: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      language: CSharp
+      name:
+        CSharp: GetSpecificBaseTypes(TypeReference)
+        VB: GetSpecificBaseTypes(TypeReference)
+      nameWithType:
+        CSharp: CecilExtensions.GetSpecificBaseTypes(TypeReference)
+        VB: CecilExtensions.GetSpecificBaseTypes(TypeReference)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+        VB: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: GetSpecificBaseTypes
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 268
+      syntax:
+        content:
+          CSharp: public static IEnumerable<TypeReference> GetSpecificBaseTypes(this TypeReference specificTypeRef)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function GetSpecificBaseTypes(specificTypeRef As TypeReference) As IEnumerable(Of TypeReference)
+        parameters:
+        - id: specificTypeRef
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        return:
+          type: System.Collections.Generic.IEnumerable{Zenject.ReflectionBaking.Mono.Cecil.TypeReference}
+      overload: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      language: CSharp
+      name:
+        CSharp: AllNestParentsAndSelf(TypeReference)
+        VB: AllNestParentsAndSelf(TypeReference)
+      nameWithType:
+        CSharp: CecilExtensions.AllNestParentsAndSelf(TypeReference)
+        VB: CecilExtensions.AllNestParentsAndSelf(TypeReference)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+        VB: Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: AllNestParentsAndSelf
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 284
+      syntax:
+        content:
+          CSharp: public static IEnumerable<TypeReference> AllNestParentsAndSelf(this TypeReference specificTypeRef)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function AllNestParentsAndSelf(specificTypeRef As TypeReference) As IEnumerable(Of TypeReference)
+        parameters:
+        - id: specificTypeRef
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        return:
+          type: System.Collections.Generic.IEnumerable{Zenject.ReflectionBaking.Mono.Cecil.TypeReference}
+      overload: Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.AllNestParents(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.AllNestParents(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      language: CSharp
+      name:
+        CSharp: AllNestParents(TypeReference)
+        VB: AllNestParents(TypeReference)
+      nameWithType:
+        CSharp: CecilExtensions.AllNestParents(TypeReference)
+        VB: CecilExtensions.AllNestParents(TypeReference)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.AllNestParents(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+        VB: Zenject.ReflectionBaking.CecilExtensions.AllNestParents(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: AllNestParents
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 294
+      syntax:
+        content:
+          CSharp: public static IEnumerable<TypeReference> AllNestParents(this TypeReference specificTypeRef)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function AllNestParents(specificTypeRef As TypeReference) As IEnumerable(Of TypeReference)
+        parameters:
+        - id: specificTypeRef
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        return:
+          type: System.Collections.Generic.IEnumerable{Zenject.ReflectionBaking.Mono.Cecil.TypeReference}
+      overload: Zenject.ReflectionBaking.CecilExtensions.AllNestParents*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.TryResolve(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.TryResolve(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      language: CSharp
+      name:
+        CSharp: TryResolve(TypeReference)
+        VB: TryResolve(TypeReference)
+      nameWithType:
+        CSharp: CecilExtensions.TryResolve(TypeReference)
+        VB: CecilExtensions.TryResolve(TypeReference)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.TryResolve(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+        VB: Zenject.ReflectionBaking.CecilExtensions.TryResolve(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: TryResolve
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 307
+      syntax:
+        content:
+          CSharp: public static TypeReference TryResolve(this TypeReference typeRef)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function TryResolve(typeRef As TypeReference) As TypeReference
+        parameters:
+        - id: typeRef
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.TryResolve*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - isExtensionMethod: true
+      id: Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      language: CSharp
+      name:
+        CSharp: TryGetSpecificBaseType(TypeReference)
+        VB: TryGetSpecificBaseType(TypeReference)
+      nameWithType:
+        CSharp: CecilExtensions.TryGetSpecificBaseType(TypeReference)
+        VB: CecilExtensions.TryGetSpecificBaseType(TypeReference)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+        VB: Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType(Zenject.ReflectionBaking.Mono.Cecil.TypeReference)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: TryGetSpecificBaseType
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 319
+      syntax:
+        content:
+          CSharp: public static TypeReference TryGetSpecificBaseType(this TypeReference specificTypeRef)
+          VB: >-
+            <ExtensionAttribute>
+
+            Public Shared Function TryGetSpecificBaseType(specificTypeRef As TypeReference) As TypeReference
+        parameters:
+        - id: specificTypeRef
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters(Zenject.ReflectionBaking.Mono.Cecil.TypeReference,System.Collections.Generic.Dictionary{System.String,Zenject.ReflectionBaking.Mono.Cecil.TypeReference})
+      commentId: M:Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters(Zenject.ReflectionBaking.Mono.Cecil.TypeReference,System.Collections.Generic.Dictionary{System.String,Zenject.ReflectionBaking.Mono.Cecil.TypeReference})
+      language: CSharp
+      name:
+        CSharp: FillInGenericParameters(TypeReference, Dictionary<String, TypeReference>)
+        VB: FillInGenericParameters(TypeReference, Dictionary(Of String, TypeReference))
+      nameWithType:
+        CSharp: CecilExtensions.FillInGenericParameters(TypeReference, Dictionary<String, TypeReference>)
+        VB: CecilExtensions.FillInGenericParameters(TypeReference, Dictionary(Of String, TypeReference))
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters(Zenject.ReflectionBaking.Mono.Cecil.TypeReference, System.Collections.Generic.Dictionary<System.String, Zenject.ReflectionBaking.Mono.Cecil.TypeReference>)
+        VB: Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters(Zenject.ReflectionBaking.Mono.Cecil.TypeReference, System.Collections.Generic.Dictionary(Of System.String, Zenject.ReflectionBaking.Mono.Cecil.TypeReference))
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        id: FillInGenericParameters
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/CecilExtensions.cs
+        startLine: 354
+      syntax:
+        content:
+          CSharp: public static TypeReference FillInGenericParameters(TypeReference type, Dictionary<string, TypeReference> genericArgMap)
+          VB: Public Shared Function FillInGenericParameters(type As TypeReference, genericArgMap As Dictionary(Of String, TypeReference)) As TypeReference
+        parameters:
+        - id: type
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        - id: genericArgMap
+          type: System.Collections.Generic.Dictionary{System.String,Zenject.ReflectionBaking.Mono.Cecil.TypeReference}
+        return:
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+      overload: Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+    commentId: T:Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+    language: CSharp
+    name:
+      CSharp: ReflectionBakingModuleEditor
+      VB: ReflectionBakingModuleEditor
+    nameWithType:
+      CSharp: ReflectionBakingModuleEditor
+      VB: ReflectionBakingModuleEditor
+    qualifiedName:
+      CSharp: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+      VB: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+    type: Class
+    assemblies:
+    - Zenject-ReflectionBaking
+    namespace: Zenject.ReflectionBaking
+    source:
+      remote:
+        path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs
+      id: ReflectionBakingModuleEditor
+      path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs
+      startLine: 14
+    syntax:
+      content:
+        CSharp: public class ReflectionBakingModuleEditor
+        VB: Public Class ReflectionBakingModuleEditor
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    extensionMethods:
+    - Zenject.ReflectionBaking.ReflectionBakingModuleEditor.ModestTree.LinqExtensions.Yield``1
+    - Zenject.ReflectionBaking.ReflectionBakingModuleEditor.ModestTree.LinqExtensions.Yield``1
+    - Zenject.ReflectionBaking.ReflectionBakingModuleEditor.UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{Zenject.ReflectionBaking.ReflectionBakingModuleEditor,{TProperty}},UniRx.FrameCountType,System.Boolean)
+    - Zenject.ReflectionBaking.ReflectionBakingModuleEditor.UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{Zenject.ReflectionBaking.ReflectionBakingModuleEditor,{TProperty}},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{{TProperty}})
+    - Zenject.ReflectionBaking.ReflectionBakingModuleEditor.UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{Zenject.ReflectionBaking.ReflectionBakingModuleEditor,{TProperty}},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{{TProperty}},System.Boolean)
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.Reflection.Assembly)
+      commentId: M:Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.Reflection.Assembly)
+      language: CSharp
+      name:
+        CSharp: WeaveAssembly(ModuleDefinition, Assembly)
+        VB: WeaveAssembly(ModuleDefinition, Assembly)
+      nameWithType:
+        CSharp: ReflectionBakingModuleEditor.WeaveAssembly(ModuleDefinition, Assembly)
+        VB: ReflectionBakingModuleEditor.WeaveAssembly(ModuleDefinition, Assembly)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.Reflection.Assembly)
+        VB: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.Reflection.Assembly)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs
+        id: WeaveAssembly
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs
+        startLine: 46
+      syntax:
+        content:
+          CSharp: public static int WeaveAssembly(ModuleDefinition module, Assembly assembly)
+          VB: Public Shared Function WeaveAssembly(module As ModuleDefinition, assembly As Assembly) As Integer
+        parameters:
+        - id: module
+          type: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        - id: assembly
+          type: System.Reflection.Assembly
+        return:
+          type: System.Int32
+      overload: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.Reflection.Assembly,System.Collections.Generic.List{System.String})
+      commentId: M:Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition,System.Reflection.Assembly,System.Collections.Generic.List{System.String})
+      language: CSharp
+      name:
+        CSharp: WeaveAssembly(ModuleDefinition, Assembly, List<String>)
+        VB: WeaveAssembly(ModuleDefinition, Assembly, List(Of String))
+      nameWithType:
+        CSharp: ReflectionBakingModuleEditor.WeaveAssembly(ModuleDefinition, Assembly, List<String>)
+        VB: ReflectionBakingModuleEditor.WeaveAssembly(ModuleDefinition, Assembly, List(Of String))
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.Reflection.Assembly, System.Collections.Generic.List<System.String>)
+        VB: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly(Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition, System.Reflection.Assembly, System.Collections.Generic.List(Of System.String))
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs
+        id: WeaveAssembly
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs
+        startLine: 52
+      syntax:
+        content:
+          CSharp: public static int WeaveAssembly(ModuleDefinition module, Assembly assembly, List<string> namespacePatterns)
+          VB: Public Shared Function WeaveAssembly(module As ModuleDefinition, assembly As Assembly, namespacePatterns As List(Of String)) As Integer
+        parameters:
+        - id: module
+          type: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        - id: assembly
+          type: System.Reflection.Assembly
+        - id: namespacePatterns
+          type: System.Collections.Generic.List{System.String}
+        return:
+          type: System.Int32
+      overload: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.Type)
+      commentId: M:Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition,System.Type)
+      language: CSharp
+      name:
+        CSharp: TryEditType(TypeDefinition, Type)
+        VB: TryEditType(TypeDefinition, Type)
+      nameWithType:
+        CSharp: ReflectionBakingModuleEditor.TryEditType(TypeDefinition, Type)
+        VB: ReflectionBakingModuleEditor.TryEditType(TypeDefinition, Type)
+      qualifiedName:
+        CSharp: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.Type)
+        VB: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType(Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition, System.Type)
+      type: Method
+      assemblies:
+      - Zenject-ReflectionBaking
+      namespace: Zenject.ReflectionBaking
+      source:
+        remote:
+          path: D:/UnityProject/Barista/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs
+        id: TryEditType
+        path: ../Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs
+        startLine: 124
+      syntax:
+        content:
+          CSharp: public bool TryEditType(TypeDefinition typeDef, Type actualType)
+          VB: Public Function TryEditType(typeDef As TypeDefinition, actualType As Type) As Boolean
+        parameters:
+        - id: typeDef
+          type: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        - id: actualType
+          type: System.Type
+        return:
+          type: System.Boolean
+      overload: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  System.Type:
+    name:
+      CSharp:
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      VB:
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Type
+  Zenject.ReflectionBaking.Mono.Cecil:
+    name:
+      CSharp:
+      - name: Zenject.ReflectionBaking.Mono.Cecil
+        nameWithType: Zenject.ReflectionBaking.Mono.Cecil
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil
+        isExternal: true
+      VB:
+      - name: Zenject.ReflectionBaking.Mono.Cecil
+        nameWithType: Zenject.ReflectionBaking.Mono.Cecil
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil
+    isDefinition: true
+    commentId: N:Zenject.ReflectionBaking.Mono.Cecil
+  Zenject.ReflectionBaking.Mono.Cecil.TypeReference:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        name: TypeReference
+        nameWithType: TypeReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        isExternal: true
+      VB:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        name: TypeReference
+        nameWithType: TypeReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        isExternal: true
+    isDefinition: true
+    parent: Zenject.ReflectionBaking.Mono.Cecil
+    commentId: T:Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+  System.Reflection:
+    name:
+      CSharp:
+      - name: System.Reflection
+        nameWithType: System.Reflection
+        qualifiedName: System.Reflection
+        isExternal: true
+      VB:
+      - name: System.Reflection
+        nameWithType: System.Reflection
+        qualifiedName: System.Reflection
+    isDefinition: true
+    commentId: N:System.Reflection
+  System.Reflection.Assembly:
+    name:
+      CSharp:
+      - id: System.Reflection.Assembly
+        name: Assembly
+        nameWithType: Assembly
+        qualifiedName: System.Reflection.Assembly
+        isExternal: true
+      VB:
+      - id: System.Reflection.Assembly
+        name: Assembly
+        nameWithType: Assembly
+        qualifiedName: System.Reflection.Assembly
+        isExternal: true
+    isDefinition: true
+    parent: System.Reflection
+    commentId: T:System.Reflection.Assembly
+  Zenject.ReflectionBaking.CecilExtensions.TryGetActualType*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.TryGetActualType*
+        name: TryGetActualType
+        nameWithType: CecilExtensions.TryGetActualType
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.TryGetActualType
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.TryGetActualType*
+        name: TryGetActualType
+        nameWithType: CecilExtensions.TryGetActualType
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.TryGetActualType
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.TryGetActualType
+  System.Collections.Generic.List`1:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.List`1
+  System.Collections.Generic:
+    name:
+      CSharp:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+        isExternal: true
+      VB:
+      - name: System.Collections.Generic
+        nameWithType: System.Collections.Generic
+        qualifiedName: System.Collections.Generic
+    isDefinition: true
+    commentId: N:System.Collections.Generic
+  System.Collections.Generic.List{Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        name: TypeDefinition
+        nameWithType: TypeDefinition
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        name: TypeDefinition
+        nameWithType: TypeDefinition
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition}
+  Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        name: ModuleDefinition
+        nameWithType: ModuleDefinition
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        isExternal: true
+      VB:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        name: ModuleDefinition
+        nameWithType: ModuleDefinition
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+        isExternal: true
+    isDefinition: true
+    parent: Zenject.ReflectionBaking.Mono.Cecil
+    commentId: T:Zenject.ReflectionBaking.Mono.Cecil.ModuleDefinition
+  Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes*
+        name: LookupAllTypes
+        nameWithType: CecilExtensions.LookupAllTypes
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes*
+        name: LookupAllTypes
+        nameWithType: CecilExtensions.LookupAllTypes
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.LookupAllTypes
+  Zenject.ReflectionBaking.CecilExtensions.ImportType*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.ImportType*
+        name: ImportType
+        nameWithType: CecilExtensions.ImportType
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.ImportType
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.ImportType*
+        name: ImportType
+        nameWithType: CecilExtensions.ImportType
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.ImportType
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.ImportType
+  Zenject.ReflectionBaking.Mono.Cecil.MethodReference:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+        name: MethodReference
+        nameWithType: MethodReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+        isExternal: true
+      VB:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+        name: MethodReference
+        nameWithType: MethodReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+        isExternal: true
+    isDefinition: true
+    parent: Zenject.ReflectionBaking.Mono.Cecil
+    commentId: T:Zenject.ReflectionBaking.Mono.Cecil.MethodReference
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  Zenject.ReflectionBaking.CecilExtensions.ImportMethod*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.ImportMethod*
+        name: ImportMethod
+        nameWithType: CecilExtensions.ImportMethod
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.ImportMethod
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.ImportMethod*
+        name: ImportMethod
+        nameWithType: CecilExtensions.ImportMethod
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.ImportMethod
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.ImportMethod
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  Zenject.ReflectionBaking.Mono.Cecil.MethodDefinition:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.MethodDefinition
+        name: MethodDefinition
+        nameWithType: MethodDefinition
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.MethodDefinition
+        isExternal: true
+      VB:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.MethodDefinition
+        name: MethodDefinition
+        nameWithType: MethodDefinition
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.MethodDefinition
+        isExternal: true
+    isDefinition: true
+    parent: Zenject.ReflectionBaking.Mono.Cecil
+    commentId: T:Zenject.ReflectionBaking.Mono.Cecil.MethodDefinition
+  Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        name: TypeDefinition
+        nameWithType: TypeDefinition
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        isExternal: true
+      VB:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        name: TypeDefinition
+        nameWithType: TypeDefinition
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+        isExternal: true
+    isDefinition: true
+    parent: Zenject.ReflectionBaking.Mono.Cecil
+    commentId: T:Zenject.ReflectionBaking.Mono.Cecil.TypeDefinition
+  Zenject.ReflectionBaking.CecilExtensions.GetMethod*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.GetMethod*
+        name: GetMethod
+        nameWithType: CecilExtensions.GetMethod
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.GetMethod
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.GetMethod*
+        name: GetMethod
+        nameWithType: CecilExtensions.GetMethod
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.GetMethod
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.GetMethod
+  System.Type[]:
+    name:
+      CSharp:
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      VB:
+      - id: System.Type
+        name: Type
+        nameWithType: Type
+        qualifiedName: System.Type
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+    isDefinition: false
+  Zenject.ReflectionBaking.Mono.Cecil.TypeReference[]:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        name: TypeReference
+        nameWithType: TypeReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      VB:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        name: TypeReference
+        nameWithType: TypeReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+    isDefinition: false
+  Zenject.ReflectionBaking.Mono.Cecil.PropertyDefinition:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.PropertyDefinition
+        name: PropertyDefinition
+        nameWithType: PropertyDefinition
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.PropertyDefinition
+        isExternal: true
+      VB:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.PropertyDefinition
+        name: PropertyDefinition
+        nameWithType: PropertyDefinition
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.PropertyDefinition
+        isExternal: true
+    isDefinition: true
+    parent: Zenject.ReflectionBaking.Mono.Cecil
+    commentId: T:Zenject.ReflectionBaking.Mono.Cecil.PropertyDefinition
+  Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition*
+        name: GetPropertyDefinition
+        nameWithType: CecilExtensions.GetPropertyDefinition
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition*
+        name: GetPropertyDefinition
+        nameWithType: CecilExtensions.GetPropertyDefinition
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.GetPropertyDefinition
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Boolean
+  Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider
+        name: ICustomAttributeProvider
+        nameWithType: ICustomAttributeProvider
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider
+        isExternal: true
+      VB:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider
+        name: ICustomAttributeProvider
+        nameWithType: ICustomAttributeProvider
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider
+        isExternal: true
+    isDefinition: true
+    parent: Zenject.ReflectionBaking.Mono.Cecil
+    commentId: T:Zenject.ReflectionBaking.Mono.Cecil.ICustomAttributeProvider
+  Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute*
+        name: HasCustomAttribute
+        nameWithType: CecilExtensions.HasCustomAttribute
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute*
+        name: HasCustomAttribute
+        nameWithType: CecilExtensions.HasCustomAttribute
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.HasCustomAttribute
+  Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType*
+        name: ChangeDeclaringType
+        nameWithType: CecilExtensions.ChangeDeclaringType
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType*
+        name: ChangeDeclaringType
+        nameWithType: CecilExtensions.ChangeDeclaringType
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.ChangeDeclaringType
+  Zenject.ReflectionBaking.Mono.Cecil.FieldReference:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.FieldReference
+        name: FieldReference
+        nameWithType: FieldReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.FieldReference
+        isExternal: true
+      VB:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.FieldReference
+        name: FieldReference
+        nameWithType: FieldReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.FieldReference
+        isExternal: true
+    isDefinition: true
+    parent: Zenject.ReflectionBaking.Mono.Cecil
+    commentId: T:Zenject.ReflectionBaking.Mono.Cecil.FieldReference
+  Zenject.ReflectionBaking.Mono.Cecil.CustomAttribute:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.CustomAttribute
+        name: CustomAttribute
+        nameWithType: CustomAttribute
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.CustomAttribute
+        isExternal: true
+      VB:
+      - id: Zenject.ReflectionBaking.Mono.Cecil.CustomAttribute
+        name: CustomAttribute
+        nameWithType: CustomAttribute
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.CustomAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Zenject.ReflectionBaking.Mono.Cecil
+    commentId: T:Zenject.ReflectionBaking.Mono.Cecil.CustomAttribute
+  Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute*
+        name: GetCustomAttribute
+        nameWithType: CecilExtensions.GetCustomAttribute
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute*
+        name: GetCustomAttribute
+        nameWithType: CecilExtensions.GetCustomAttribute
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.GetCustomAttribute
+  System.Collections.Generic.IEnumerable`1:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.IEnumerable`1
+  System.Collections.Generic.IEnumerable{Zenject.ReflectionBaking.Mono.Cecil.TypeReference}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        name: TypeReference
+        nameWithType: TypeReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: System.Collections.Generic.IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        name: TypeReference
+        nameWithType: TypeReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.IEnumerable`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.IEnumerable{Zenject.ReflectionBaking.Mono.Cecil.TypeReference}
+  Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf*
+        name: GetSpecificBaseTypesAndSelf
+        nameWithType: CecilExtensions.GetSpecificBaseTypesAndSelf
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf*
+        name: GetSpecificBaseTypesAndSelf
+        nameWithType: CecilExtensions.GetSpecificBaseTypesAndSelf
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypesAndSelf
+  Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes*
+        name: GetSpecificBaseTypes
+        nameWithType: CecilExtensions.GetSpecificBaseTypes
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes*
+        name: GetSpecificBaseTypes
+        nameWithType: CecilExtensions.GetSpecificBaseTypes
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.GetSpecificBaseTypes
+  Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf*
+        name: AllNestParentsAndSelf
+        nameWithType: CecilExtensions.AllNestParentsAndSelf
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf*
+        name: AllNestParentsAndSelf
+        nameWithType: CecilExtensions.AllNestParentsAndSelf
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.AllNestParentsAndSelf
+  Zenject.ReflectionBaking.CecilExtensions.AllNestParents*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.AllNestParents*
+        name: AllNestParents
+        nameWithType: CecilExtensions.AllNestParents
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.AllNestParents
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.AllNestParents*
+        name: AllNestParents
+        nameWithType: CecilExtensions.AllNestParents
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.AllNestParents
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.AllNestParents
+  Zenject.ReflectionBaking.CecilExtensions.TryResolve*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.TryResolve*
+        name: TryResolve
+        nameWithType: CecilExtensions.TryResolve
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.TryResolve
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.TryResolve*
+        name: TryResolve
+        nameWithType: CecilExtensions.TryResolve
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.TryResolve
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.TryResolve
+  Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType*
+        name: TryGetSpecificBaseType
+        nameWithType: CecilExtensions.TryGetSpecificBaseType
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType*
+        name: TryGetSpecificBaseType
+        nameWithType: CecilExtensions.TryGetSpecificBaseType
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.TryGetSpecificBaseType
+  System.Collections.Generic.Dictionary`2:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TKey
+        nameWithType: TKey
+        qualifiedName: TKey
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TValue
+        nameWithType: TValue
+        qualifiedName: TValue
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Collections.Generic.Dictionary`2
+  System.Collections.Generic.Dictionary{System.String,Zenject.ReflectionBaking.Mono.Cecil.TypeReference}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        name: TypeReference
+        nameWithType: TypeReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.Dictionary`2
+        name: Dictionary
+        nameWithType: Dictionary
+        qualifiedName: System.Collections.Generic.Dictionary
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        name: TypeReference
+        nameWithType: TypeReference
+        qualifiedName: Zenject.ReflectionBaking.Mono.Cecil.TypeReference
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.Dictionary`2
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.Dictionary{System.String,Zenject.ReflectionBaking.Mono.Cecil.TypeReference}
+  Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters*
+        name: FillInGenericParameters
+        nameWithType: CecilExtensions.FillInGenericParameters
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters*
+        name: FillInGenericParameters
+        nameWithType: CecilExtensions.FillInGenericParameters
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.CecilExtensions.FillInGenericParameters
+  Zenject.ReflectionBaking.CecilExtensions:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.CecilExtensions
+        name: CecilExtensions
+        nameWithType: CecilExtensions
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions
+      VB:
+      - id: Zenject.ReflectionBaking.CecilExtensions
+        name: CecilExtensions
+        nameWithType: CecilExtensions
+        qualifiedName: Zenject.ReflectionBaking.CecilExtensions
+    isDefinition: true
+    commentId: T:Zenject.ReflectionBaking.CecilExtensions
+  ModestTree.LinqExtensions.Yield``1(``0):
+    name:
+      CSharp:
+      - id: ModestTree.LinqExtensions.Yield``1(``0)
+        name: Yield<T>
+        nameWithType: LinqExtensions.Yield<T>
+        qualifiedName: ModestTree.LinqExtensions.Yield<T>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: ModestTree.LinqExtensions.Yield``1(``0)
+        name: Yield(Of T)
+        nameWithType: LinqExtensions.Yield(Of T)
+        qualifiedName: ModestTree.LinqExtensions.Yield(Of T)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: T
+        nameWithType: T
+        qualifiedName: T
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:ModestTree.LinqExtensions.Yield``1(``0)
+  ModestTree:
+    name:
+      CSharp:
+      - name: ModestTree
+        nameWithType: ModestTree
+        qualifiedName: ModestTree
+      VB:
+      - name: ModestTree
+        nameWithType: ModestTree
+        qualifiedName: ModestTree
+    isDefinition: true
+    commentId: N:ModestTree
+  ModestTree.LinqExtensions:
+    name:
+      CSharp:
+      - id: ModestTree.LinqExtensions
+        name: LinqExtensions
+        nameWithType: LinqExtensions
+        qualifiedName: ModestTree.LinqExtensions
+      VB:
+      - id: ModestTree.LinqExtensions
+        name: LinqExtensions
+        nameWithType: LinqExtensions
+        qualifiedName: ModestTree.LinqExtensions
+    isDefinition: true
+    parent: ModestTree
+    commentId: T:ModestTree.LinqExtensions
+  Zenject.ReflectionBaking.ReflectionBakingModuleEditor.ModestTree.LinqExtensions.Yield``1:
+    name:
+      CSharp:
+      - id: ModestTree.LinqExtensions.Yield``1
+        name: Yield<ReflectionBakingModuleEditor>
+        nameWithType: LinqExtensions.Yield<ReflectionBakingModuleEditor>
+        qualifiedName: ModestTree.LinqExtensions.Yield<Zenject.ReflectionBaking.ReflectionBakingModuleEditor>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: ModestTree.LinqExtensions.Yield``1
+        name: Yield(Of ReflectionBakingModuleEditor)
+        nameWithType: LinqExtensions.Yield(Of ReflectionBakingModuleEditor)
+        qualifiedName: ModestTree.LinqExtensions.Yield(Of Zenject.ReflectionBaking.ReflectionBakingModuleEditor)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: ModestTree.LinqExtensions.Yield``1(``0)
+    parent: ModestTree.LinqExtensions
+    commentId: M:ModestTree.LinqExtensions.Yield``1(``0)
+  UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Boolean):
+    name:
+      CSharp:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Boolean)
+        name: ObserveEveryValueChanged<TSource, TProperty>
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged<TSource, TProperty>
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged<TSource, TProperty>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Boolean)
+        name: ObserveEveryValueChanged(Of TSource, TProperty)
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged(Of TSource, TProperty)
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged(Of TSource, TProperty)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Boolean)
+  UniRx:
+    name:
+      CSharp:
+      - name: UniRx
+        nameWithType: UniRx
+        qualifiedName: UniRx
+      VB:
+      - name: UniRx
+        nameWithType: UniRx
+        qualifiedName: UniRx
+    isDefinition: true
+    commentId: N:UniRx
+  UniRx.ObserveExtensions:
+    name:
+      CSharp:
+      - id: UniRx.ObserveExtensions
+        name: ObserveExtensions
+        nameWithType: ObserveExtensions
+        qualifiedName: UniRx.ObserveExtensions
+      VB:
+      - id: UniRx.ObserveExtensions
+        name: ObserveExtensions
+        nameWithType: ObserveExtensions
+        qualifiedName: UniRx.ObserveExtensions
+    isDefinition: true
+    parent: UniRx
+    commentId: T:UniRx.ObserveExtensions
+  ? Zenject.ReflectionBaking.ReflectionBakingModuleEditor.UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{Zenject.ReflectionBaking.ReflectionBakingModuleEditor,{TProperty}},UniRx.FrameCountType,System.Boolean)
+  : name:
+      CSharp:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{``0,``1},UniRx.FrameCountType,System.Boolean)
+        name: ObserveEveryValueChanged<ReflectionBakingModuleEditor, TProperty>
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged<ReflectionBakingModuleEditor, TProperty>
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged<Zenject.ReflectionBaking.ReflectionBakingModuleEditor, TProperty>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+        name: ReflectionBakingModuleEditor
+        nameWithType: ReflectionBakingModuleEditor
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{``0,``1},UniRx.FrameCountType,System.Boolean)
+        name: ObserveEveryValueChanged(Of ReflectionBakingModuleEditor, TProperty)
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged(Of ReflectionBakingModuleEditor, TProperty)
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged(Of Zenject.ReflectionBaking.ReflectionBakingModuleEditor, TProperty)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+        name: ReflectionBakingModuleEditor
+        nameWithType: ReflectionBakingModuleEditor
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Boolean)
+    parent: UniRx.ObserveExtensions
+    commentId: M:UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Boolean)
+  ? UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1})
+  : name:
+      CSharp:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1})
+        name: ObserveEveryValueChanged<TSource, TProperty>
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged<TSource, TProperty>
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged<TSource, TProperty>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Collections.Generic.IEqualityComparer`1
+        name: IEqualityComparer
+        nameWithType: IEqualityComparer
+        qualifiedName: System.Collections.Generic.IEqualityComparer
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1})
+        name: ObserveEveryValueChanged(Of TSource, TProperty)
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged(Of TSource, TProperty)
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged(Of TSource, TProperty)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Collections.Generic.IEqualityComparer`1
+        name: IEqualityComparer
+        nameWithType: IEqualityComparer
+        qualifiedName: System.Collections.Generic.IEqualityComparer
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1})
+  ? Zenject.ReflectionBaking.ReflectionBakingModuleEditor.UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{Zenject.ReflectionBaking.ReflectionBakingModuleEditor,{TProperty}},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{{TProperty}})
+  : name:
+      CSharp:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1})
+        name: ObserveEveryValueChanged<ReflectionBakingModuleEditor, TProperty>
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged<ReflectionBakingModuleEditor, TProperty>
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged<Zenject.ReflectionBaking.ReflectionBakingModuleEditor, TProperty>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+        name: ReflectionBakingModuleEditor
+        nameWithType: ReflectionBakingModuleEditor
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Collections.Generic.IEqualityComparer`1
+        name: IEqualityComparer
+        nameWithType: IEqualityComparer
+        qualifiedName: System.Collections.Generic.IEqualityComparer
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1})
+        name: ObserveEveryValueChanged(Of ReflectionBakingModuleEditor, TProperty)
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged(Of ReflectionBakingModuleEditor, TProperty)
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged(Of Zenject.ReflectionBaking.ReflectionBakingModuleEditor, TProperty)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+        name: ReflectionBakingModuleEditor
+        nameWithType: ReflectionBakingModuleEditor
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Collections.Generic.IEqualityComparer`1
+        name: IEqualityComparer
+        nameWithType: IEqualityComparer
+        qualifiedName: System.Collections.Generic.IEqualityComparer
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1})
+    parent: UniRx.ObserveExtensions
+    commentId: M:UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1})
+  ? UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1},System.Boolean)
+  : name:
+      CSharp:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1},System.Boolean)
+        name: ObserveEveryValueChanged<TSource, TProperty>
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged<TSource, TProperty>
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged<TSource, TProperty>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Collections.Generic.IEqualityComparer`1
+        name: IEqualityComparer
+        nameWithType: IEqualityComparer
+        qualifiedName: System.Collections.Generic.IEqualityComparer
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1},System.Boolean)
+        name: ObserveEveryValueChanged(Of TSource, TProperty)
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged(Of TSource, TProperty)
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged(Of TSource, TProperty)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TSource
+        nameWithType: TSource
+        qualifiedName: TSource
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Collections.Generic.IEqualityComparer`1
+        name: IEqualityComparer
+        nameWithType: IEqualityComparer
+        qualifiedName: System.Collections.Generic.IEqualityComparer
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: M:UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1},System.Boolean)
+  ? Zenject.ReflectionBaking.ReflectionBakingModuleEditor.UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{Zenject.ReflectionBaking.ReflectionBakingModuleEditor,{TProperty}},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{{TProperty}},System.Boolean)
+  : name:
+      CSharp:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1},System.Boolean)
+        name: ObserveEveryValueChanged<ReflectionBakingModuleEditor, TProperty>
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged<ReflectionBakingModuleEditor, TProperty>
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged<Zenject.ReflectionBaking.ReflectionBakingModuleEditor, TProperty>
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+        name: ReflectionBakingModuleEditor
+        nameWithType: ReflectionBakingModuleEditor
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Collections.Generic.IEqualityComparer`1
+        name: IEqualityComparer
+        nameWithType: IEqualityComparer
+        qualifiedName: System.Collections.Generic.IEqualityComparer
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1},System.Boolean)
+        name: ObserveEveryValueChanged(Of ReflectionBakingModuleEditor, TProperty)
+        nameWithType: ObserveExtensions.ObserveEveryValueChanged(Of ReflectionBakingModuleEditor, TProperty)
+        qualifiedName: UniRx.ObserveExtensions.ObserveEveryValueChanged(Of Zenject.ReflectionBaking.ReflectionBakingModuleEditor, TProperty)
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Func`2
+        name: Func
+        nameWithType: Func
+        qualifiedName: System.Func
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+        name: ReflectionBakingModuleEditor
+        nameWithType: ReflectionBakingModuleEditor
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: UniRx.FrameCountType
+        name: FrameCountType
+        nameWithType: FrameCountType
+        qualifiedName: UniRx.FrameCountType
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Collections.Generic.IEqualityComparer`1
+        name: IEqualityComparer
+        nameWithType: IEqualityComparer
+        qualifiedName: System.Collections.Generic.IEqualityComparer
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TProperty
+        nameWithType: TProperty
+        qualifiedName: TProperty
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1},System.Boolean)
+    parent: UniRx.ObserveExtensions
+    commentId: M:UniRx.ObserveExtensions.ObserveEveryValueChanged``2(``0,System.Func{``0,``1},UniRx.FrameCountType,System.Collections.Generic.IEqualityComparer{``1},System.Boolean)
+  Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly*
+        name: WeaveAssembly
+        nameWithType: ReflectionBakingModuleEditor.WeaveAssembly
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly
+      VB:
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly*
+        name: WeaveAssembly
+        nameWithType: ReflectionBakingModuleEditor.WeaveAssembly
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.ReflectionBakingModuleEditor.WeaveAssembly
+  System.Collections.Generic.List{System.String}:
+    name:
+      CSharp:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Collections.Generic.List`1
+        name: List
+        nameWithType: List
+        qualifiedName: System.Collections.Generic.List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Collections.Generic.List`1
+    parent: System.Collections.Generic
+    commentId: T:System.Collections.Generic.List{System.String}
+  Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType*:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType*
+        name: TryEditType
+        nameWithType: ReflectionBakingModuleEditor.TryEditType
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType
+      VB:
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType*
+        name: TryEditType
+        nameWithType: ReflectionBakingModuleEditor.TryEditType
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType
+    isDefinition: true
+    commentId: Overload:Zenject.ReflectionBaking.ReflectionBakingModuleEditor.TryEditType
+  Zenject.ReflectionBaking.ReflectionBakingModuleEditor:
+    name:
+      CSharp:
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+        name: ReflectionBakingModuleEditor
+        nameWithType: ReflectionBakingModuleEditor
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+      VB:
+      - id: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+        name: ReflectionBakingModuleEditor
+        nameWithType: ReflectionBakingModuleEditor
+        qualifiedName: Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+    isDefinition: true
+    commentId: T:Zenject.ReflectionBaking.ReflectionBakingModuleEditor
+  Zenject.ReflectionBaking:
+    name:
+      CSharp:
+      - name: Zenject.ReflectionBaking
+        nameWithType: Zenject.ReflectionBaking
+        qualifiedName: Zenject.ReflectionBaking
+      VB:
+      - name: Zenject.ReflectionBaking
+        nameWithType: Zenject.ReflectionBaking
+        qualifiedName: Zenject.ReflectionBaking
+    isDefinition: true
+    commentId: N:Zenject.ReflectionBaking
