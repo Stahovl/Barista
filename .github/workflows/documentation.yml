@@ -31,7 +31,10 @@ jobs:
         run: echo "" > docs/_site/.nojekyll
 
       # Шаг 5: Собираем документацию
-      - name: Build Documentation
+      - name: Use README.md as index.md
+        run: cp README.md Documentation/index.md
+
+      - name: Build
         run: docfx Documentation/docfx.json
 
       # Шаг 6: Деплоим в GitHub Pages

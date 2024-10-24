@@ -15,8 +15,8 @@
     ],
     "build": {
         "globalMetadata": {
-            "_appTitle": "Example Unity documentation",
-            "_appFooter": "Example Unity documentation",
+            "_appTitle": "Barista Documentation",
+            "_appFooter": "Barista Documentation",
             "_enableSearch": true,
             "pdf": true
         },
@@ -30,7 +30,9 @@
             {
                 "src": "api",
                 "files": [
-                    "*.yml"
+                    "toc.yml",
+                    "*.yml",
+                    "index.md"
                 ],
                 "dest": "api"
             },
@@ -59,20 +61,8 @@
             }
         ],
         "sitemap": {
-            "baseUrl": "https://stahovl.github.io/Barista",
-            "changefreq": "weekly",
-            "fileOptions": {
-                "api/*": {
-                    "changefreq": "daily"
-                }
-            }
+            "baseUrl": "https://stahovl.github.io/Barista/"
         },
-        "xref": [
-            "https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"
-        ],
-        "xrefService": [
-            "https://xref.docs.microsoft.com/query?uid={uid}"
-        ],
-        "dest": "../_site"
+        "dest": "_site"
     }
 }
