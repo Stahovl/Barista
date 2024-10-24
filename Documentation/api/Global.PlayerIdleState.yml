@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlayerIdleState
+  commentId: T:Global.PlayerIdleState
+  id: PlayerIdleState
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PlayerIdleState
+  nameWithType: PlayerIdleState
+  fullName: PlayerIdleState
+  type: Class
+  source:
+    id: PlayerIdleState
+    path: ''
+    startLine: 59719
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PlayerIdleState : MonoBehaviour'
+    content.vb: >-
+      Public Class PlayerIdleState
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

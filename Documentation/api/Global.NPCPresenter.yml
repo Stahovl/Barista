@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.NPCPresenter
+  commentId: T:Global.NPCPresenter
+  id: NPCPresenter
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: NPCPresenter
+  nameWithType: NPCPresenter
+  fullName: NPCPresenter
+  type: Class
+  source:
+    id: NPCPresenter
+    path: ''
+    startLine: 59634
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class NPCPresenter : MonoBehaviour'
+    content.vb: >-
+      Public Class NPCPresenter
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

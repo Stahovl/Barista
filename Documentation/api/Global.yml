@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global
+  id: Global
+  children:
+  - Global.CharacterBase
+  - Global.DisposableAction
+  - Global.GameInstaller
+  - Global.InputHandler
+  - Global.InputSystem_Actions
+  - Global.InputSystem_Actions.IPlayerActions
+  - Global.InputSystem_Actions.IUIActions
+  - Global.InputSystem_Actions.PlayerActions
+  - Global.InputSystem_Actions.UIActions
+  - Global.IState
+  - Global.Movement
+  - Global.NPCIdleState
+  - Global.NPCModel
+  - Global.NPCPresenter
+  - Global.NPCView
+  - Global.PlayerIdleState
+  - Global.PlayerInstaller
+  - Global.PlayerModel
+  - Global.PlayerPresenter
+  - Global.PlayerView
+  - Global.ReactiveProperty`1
+  - Global.StateMachine
+  - Global.UIIDGenerator
+  - Global.WalkState
+  langs:
+  - csharp
+  - vb
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+references:
+- uid: Global.UIIDGenerator
+  commentId: T:Global.UIIDGenerator
+  name: UIIDGenerator
+  nameWithType: UIIDGenerator
+  fullName: UIIDGenerator
+- uid: Global.InputSystem_Actions
+  commentId: T:Global.InputSystem_Actions
+  name: InputSystem_Actions
+  nameWithType: InputSystem_Actions
+  fullName: InputSystem_Actions
+- uid: Global.InputSystem_Actions.PlayerActions
+  commentId: T:Global.InputSystem_Actions.PlayerActions
+  name: InputSystem_Actions.PlayerActions
+  nameWithType: InputSystem_Actions.PlayerActions
+  fullName: InputSystem_Actions.PlayerActions
+- uid: Global.InputSystem_Actions.UIActions
+  commentId: T:Global.InputSystem_Actions.UIActions
+  name: InputSystem_Actions.UIActions
+  nameWithType: InputSystem_Actions.UIActions
+  fullName: InputSystem_Actions.UIActions
+- uid: Global.InputSystem_Actions.IPlayerActions
+  commentId: T:Global.InputSystem_Actions.IPlayerActions
+  name: InputSystem_Actions.IPlayerActions
+  nameWithType: InputSystem_Actions.IPlayerActions
+  fullName: InputSystem_Actions.IPlayerActions
+- uid: Global.InputSystem_Actions.IUIActions
+  commentId: T:Global.InputSystem_Actions.IUIActions
+  name: InputSystem_Actions.IUIActions
+  nameWithType: InputSystem_Actions.IUIActions
+  fullName: InputSystem_Actions.IUIActions
+- uid: Global.CharacterBase
+  commentId: T:Global.CharacterBase
+  name: CharacterBase
+  nameWithType: CharacterBase
+  fullName: CharacterBase
+- uid: Global.NPCModel
+  commentId: T:Global.NPCModel
+  name: NPCModel
+  nameWithType: NPCModel
+  fullName: NPCModel
+- uid: Global.NPCPresenter
+  commentId: T:Global.NPCPresenter
+  name: NPCPresenter
+  nameWithType: NPCPresenter
+  fullName: NPCPresenter
+- uid: Global.NPCIdleState
+  commentId: T:Global.NPCIdleState
+  name: NPCIdleState
+  nameWithType: NPCIdleState
+  fullName: NPCIdleState
+- uid: Global.NPCView
+  commentId: T:Global.NPCView
+  name: NPCView
+  nameWithType: NPCView
+  fullName: NPCView
+- uid: Global.PlayerModel
+  commentId: T:Global.PlayerModel
+  name: PlayerModel
+  nameWithType: PlayerModel
+  fullName: PlayerModel
+- uid: Global.PlayerPresenter
+  commentId: T:Global.PlayerPresenter
+  name: PlayerPresenter
+  nameWithType: PlayerPresenter
+  fullName: PlayerPresenter
+- uid: Global.PlayerIdleState
+  commentId: T:Global.PlayerIdleState
+  name: PlayerIdleState
+  nameWithType: PlayerIdleState
+  fullName: PlayerIdleState
+- uid: Global.PlayerView
+  commentId: T:Global.PlayerView
+  name: PlayerView
+  nameWithType: PlayerView
+  fullName: PlayerView
+- uid: Global.InputHandler
+  commentId: T:Global.InputHandler
+  name: InputHandler
+  nameWithType: InputHandler
+  fullName: InputHandler
+- uid: Global.DisposableAction
+  commentId: T:Global.DisposableAction
+  name: DisposableAction
+  nameWithType: DisposableAction
+  fullName: DisposableAction
+- uid: Global.Movement
+  commentId: T:Global.Movement
+  name: Movement
+  nameWithType: Movement
+  fullName: Movement
+- uid: Global.IState
+  commentId: T:Global.IState
+  name: IState
+  nameWithType: IState
+  fullName: IState
+- uid: Global.StateMachine
+  commentId: T:Global.StateMachine
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: StateMachine
+- uid: Global.WalkState
+  commentId: T:Global.WalkState
+  name: WalkState
+  nameWithType: WalkState
+  fullName: WalkState
+- uid: Global.GameInstaller
+  commentId: T:Global.GameInstaller
+  name: GameInstaller
+  nameWithType: GameInstaller
+  fullName: GameInstaller
+- uid: Global.PlayerInstaller
+  commentId: T:Global.PlayerInstaller
+  name: PlayerInstaller
+  nameWithType: PlayerInstaller
+  fullName: PlayerInstaller
+- uid: Global.ReactiveProperty`1
+  commentId: T:Global.ReactiveProperty`1
+  name: ReactiveProperty<T>
+  nameWithType: ReactiveProperty<T>
+  fullName: ReactiveProperty<T>
+  nameWithType.vb: ReactiveProperty(Of T)
+  fullName.vb: ReactiveProperty(Of T)
+  name.vb: ReactiveProperty(Of T)
+  spec.csharp:
+  - uid: Global.ReactiveProperty`1
+    name: ReactiveProperty
+    nameWithType: ReactiveProperty
+    fullName: ReactiveProperty
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ReactiveProperty`1
+    name: ReactiveProperty
+    nameWithType: ReactiveProperty
+    fullName: ReactiveProperty
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

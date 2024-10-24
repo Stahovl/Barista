@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ReactiveProperty`1
+  commentId: T:Global.ReactiveProperty`1
+  id: ReactiveProperty`1
+  parent: Global
+  children:
+  - Global.ReactiveProperty`1.#ctor(`0)
+  - Global.ReactiveProperty`1.Dispose
+  - Global.ReactiveProperty`1.Subscribe(Action{`0})
+  - Global.ReactiveProperty`1.Value
+  langs:
+  - csharp
+  - vb
+  name: ReactiveProperty<T>
+  nameWithType: ReactiveProperty<T>
+  fullName: ReactiveProperty<T>
+  type: Class
+  source:
+    id: ReactiveProperty
+    path: ''
+    startLine: 59912
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ReactiveProperty<T> : IDisposable'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public Class ReactiveProperty(Of T)
+          Inherits IDisposable
+  inheritance:
+  - System.Object
+  nameWithType.vb: ReactiveProperty(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: ReactiveProperty(Of T)
+  name.vb: ReactiveProperty(Of T)
+- uid: Global.ReactiveProperty`1.Value
+  commentId: P:Global.ReactiveProperty`1.Value
+  id: Value
+  parent: Global.ReactiveProperty`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ReactiveProperty<T>.Value
+  fullName: ReactiveProperty<T>.Value
+  type: Property
+  source:
+    id: Value
+    path: ''
+    startLine: 59917
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public T Value { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Property Value As T
+  overload: Global.ReactiveProperty`1.Value*
+  nameWithType.vb: ReactiveProperty(Of T).Value
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: ReactiveProperty(Of T).Value
+- uid: Global.ReactiveProperty`1.#ctor(`0)
+  commentId: M:Global.ReactiveProperty`1.#ctor(`0)
+  id: '#ctor(`0)'
+  parent: Global.ReactiveProperty`1
+  langs:
+  - csharp
+  - vb
+  name: ReactiveProperty(T)
+  nameWithType: ReactiveProperty<T>.ReactiveProperty(T)
+  fullName: ReactiveProperty<T>.ReactiveProperty(T)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 59930
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ReactiveProperty(T initialValue = null)
+    parameters:
+    - id: initialValue
+      type: '{T}'
+    content.vb: Public Sub New(initialValue As T = Nothing)
+  overload: Global.ReactiveProperty`1.#ctor*
+  nameWithType.vb: ReactiveProperty(Of T).ReactiveProperty(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: ReactiveProperty(Of T).ReactiveProperty(T)
+- uid: Global.ReactiveProperty`1.Subscribe(Action{`0})
+  commentId: M:Global.ReactiveProperty`1.Subscribe(Action{`0})
+  id: Subscribe(Action{`0})
+  parent: Global.ReactiveProperty`1
+  langs:
+  - csharp
+  - vb
+  name: Subscribe(Action<T>)
+  nameWithType: ReactiveProperty<T>.Subscribe(Action<T>)
+  fullName: ReactiveProperty<T>.Subscribe(Action<T>)
+  type: Method
+  source:
+    id: Subscribe
+    path: ''
+    startLine: 59935
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public IDisposable Subscribe(Action<T> observer)
+    parameters:
+    - id: observer
+      type: Global.Action{{T}}
+    return:
+      type: Global.IDisposable
+    content.vb: Public Function Subscribe(observer As Action(Of T)) As IDisposable
+  overload: Global.ReactiveProperty`1.Subscribe*
+  nameWithType.vb: ReactiveProperty(Of T).Subscribe(Action(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: ReactiveProperty(Of T).Subscribe(Action(Of T))
+  name.vb: Subscribe(Action(Of T))
+- uid: Global.ReactiveProperty`1.Dispose
+  commentId: M:Global.ReactiveProperty`1.Dispose
+  id: Dispose
+  parent: Global.ReactiveProperty`1
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ReactiveProperty<T>.Dispose()
+  fullName: ReactiveProperty<T>.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 59958
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Global.ReactiveProperty`1.Dispose*
+  nameWithType.vb: ReactiveProperty(Of T).Dispose()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: ReactiveProperty(Of T).Dispose()
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ReactiveProperty`1.Value*
+  commentId: Overload:Global.ReactiveProperty`1.Value
+  name: Value
+  nameWithType: ReactiveProperty<T>.Value
+  fullName: ReactiveProperty<T>.Value
+  nameWithType.vb: ReactiveProperty(Of T).Value
+  fullName.vb: ReactiveProperty(Of T).Value
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.ReactiveProperty`1.#ctor*
+  commentId: Overload:Global.ReactiveProperty`1.#ctor
+  name: ReactiveProperty
+  nameWithType: ReactiveProperty<T>.ReactiveProperty
+  fullName: ReactiveProperty<T>.ReactiveProperty
+  nameWithType.vb: ReactiveProperty(Of T).ReactiveProperty
+  fullName.vb: ReactiveProperty(Of T).ReactiveProperty
+- uid: Global.ReactiveProperty`1.Subscribe*
+  commentId: Overload:Global.ReactiveProperty`1.Subscribe
+  name: Subscribe
+  nameWithType: ReactiveProperty<T>.Subscribe
+  fullName: ReactiveProperty<T>.Subscribe
+  nameWithType.vb: ReactiveProperty(Of T).Subscribe
+  fullName.vb: ReactiveProperty(Of T).Subscribe
+- uid: Global.Action{{T}}
+  commentId: '!:Global.Action{`0}'
+  definition: Global.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: IDisposable
+- uid: Global.Action`1
+  commentId: '!:Global.Action`1'
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ReactiveProperty`1.Dispose*
+  commentId: Overload:Global.ReactiveProperty`1.Dispose
+  name: Dispose
+  nameWithType: ReactiveProperty<T>.Dispose
+  fullName: ReactiveProperty<T>.Dispose
+  nameWithType.vb: ReactiveProperty(Of T).Dispose
+  fullName.vb: ReactiveProperty(Of T).Dispose

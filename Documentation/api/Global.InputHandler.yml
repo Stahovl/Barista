@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.InputHandler
+  commentId: T:Global.InputHandler
+  id: InputHandler
+  parent: Global
+  children:
+  - Global.InputHandler.MovementDirection
+  - Global.InputHandler.OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext)
+  - Global.InputHandler.OnLook(UnityEngine.InputSystem.InputAction.CallbackContext)
+  - Global.InputHandler.OnMove(InputAction.CallbackContext)
+  langs:
+  - csharp
+  - vb
+  name: InputHandler
+  nameWithType: InputHandler
+  fullName: InputHandler
+  type: Class
+  source:
+    id: InputHandler
+    path: ''
+    startLine: 59754
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class InputHandler : MonoBehaviour, InputSystem_Actions.IPlayerActions'
+    content.vb: >-
+      Public Class InputHandler
+          Inherits MonoBehaviour
+          Implements InputSystem_Actions.IPlayerActions
+  inheritance:
+  - System.Object
+  implements:
+  - Global.InputSystem_Actions.IPlayerActions
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.InputHandler.MovementDirection
+  commentId: P:Global.InputHandler.MovementDirection
+  id: MovementDirection
+  parent: Global.InputHandler
+  langs:
+  - csharp
+  - vb
+  name: MovementDirection
+  nameWithType: InputHandler.MovementDirection
+  fullName: InputHandler.MovementDirection
+  type: Property
+  source:
+    id: MovementDirection
+    path: ''
+    startLine: 59759
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ReactiveProperty<Vector2> MovementDirection { get; }
+    parameters: []
+    return:
+      type: Global.ReactiveProperty{Vector2}
+    content.vb: Public ReadOnly Property MovementDirection As ReactiveProperty(Of Vector2)
+  overload: Global.InputHandler.MovementDirection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputHandler.OnMove(InputAction.CallbackContext)
+  commentId: M:Global.InputHandler.OnMove(InputAction.CallbackContext)
+  id: OnMove(InputAction.CallbackContext)
+  parent: Global.InputHandler
+  langs:
+  - csharp
+  - vb
+  name: OnMove(InputAction.CallbackContext)
+  nameWithType: InputHandler.OnMove(InputAction.CallbackContext)
+  fullName: InputHandler.OnMove(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnMove
+    path: ''
+    startLine: 59777
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnMove(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Public Sub OnMove(context As InputAction.CallbackContext)
+  overload: Global.InputHandler.OnMove*
+  implements:
+  - Global.InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputHandler.OnLook(UnityEngine.InputSystem.InputAction.CallbackContext)
+  commentId: M:Global.InputHandler.OnLook(UnityEngine.InputSystem.InputAction.CallbackContext)
+  id: OnLook(UnityEngine.InputSystem.InputAction.CallbackContext)
+  parent: Global.InputHandler
+  langs:
+  - csharp
+  - vb
+  name: OnLook(UnityEngine.InputSystem.InputAction.CallbackContext)
+  nameWithType: InputHandler.OnLook(UnityEngine.InputSystem.InputAction.CallbackContext)
+  fullName: InputHandler.OnLook(UnityEngine.InputSystem.InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnLook
+    path: ''
+    startLine: 59789
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnLook(UnityEngine.InputSystem.InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.UnityEngine.InputSystem.InputAction.CallbackContext
+    content.vb: Public Sub OnLook(context As UnityEngine.InputSystem.InputAction.CallbackContext)
+  overload: Global.InputHandler.OnLook*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputHandler.OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext)
+  commentId: M:Global.InputHandler.OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext)
+  id: OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext)
+  parent: Global.InputHandler
+  langs:
+  - csharp
+  - vb
+  name: OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext)
+  nameWithType: InputHandler.OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext)
+  fullName: InputHandler.OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnInteract
+    path: ''
+    startLine: 59790
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnInteract(UnityEngine.InputSystem.InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.UnityEngine.InputSystem.InputAction.CallbackContext
+    content.vb: Public Sub OnInteract(context As UnityEngine.InputSystem.InputAction.CallbackContext)
+  overload: Global.InputHandler.OnInteract*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.InputSystem_Actions.IPlayerActions
+  commentId: T:Global.InputSystem_Actions.IPlayerActions
+  name: InputSystem_Actions.IPlayerActions
+  nameWithType: InputSystem_Actions.IPlayerActions
+  fullName: InputSystem_Actions.IPlayerActions
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.InputHandler.MovementDirection*
+  commentId: Overload:Global.InputHandler.MovementDirection
+  name: MovementDirection
+  nameWithType: InputHandler.MovementDirection
+  fullName: InputHandler.MovementDirection
+- uid: Global.ReactiveProperty{Vector2}
+  commentId: T:Global.ReactiveProperty{Vector2}
+  definition: Global.ReactiveProperty`1
+  name: ReactiveProperty<Vector2>
+  nameWithType: ReactiveProperty<Vector2>
+  fullName: ReactiveProperty<Vector2>
+  nameWithType.vb: ReactiveProperty(Of Vector2)
+  fullName.vb: ReactiveProperty(Of Vector2)
+  name.vb: ReactiveProperty(Of Vector2)
+  spec.csharp:
+  - uid: Global.ReactiveProperty`1
+    name: ReactiveProperty
+    nameWithType: ReactiveProperty
+    fullName: ReactiveProperty
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ReactiveProperty`1
+    name: ReactiveProperty
+    nameWithType: ReactiveProperty
+    fullName: ReactiveProperty
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Vector2
+    name: Vector2
+    nameWithType: Vector2
+    fullName: Vector2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ReactiveProperty`1
+  commentId: T:Global.ReactiveProperty`1
+  name: ReactiveProperty<T>
+  nameWithType: ReactiveProperty<T>
+  fullName: ReactiveProperty<T>
+  nameWithType.vb: ReactiveProperty(Of T)
+  fullName.vb: ReactiveProperty(Of T)
+  name.vb: ReactiveProperty(Of T)
+  spec.csharp:
+  - uid: Global.ReactiveProperty`1
+    name: ReactiveProperty
+    nameWithType: ReactiveProperty
+    fullName: ReactiveProperty
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ReactiveProperty`1
+    name: ReactiveProperty
+    nameWithType: ReactiveProperty
+    fullName: ReactiveProperty
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.InputHandler.OnMove*
+  commentId: Overload:Global.InputHandler.OnMove
+  name: OnMove
+  nameWithType: InputHandler.OnMove
+  fullName: InputHandler.OnMove
+- uid: Global.InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+  commentId: M:Global.InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+  parent: Global.InputSystem_Actions.IPlayerActions
+  isExternal: true
+  name: OnMove(InputAction.CallbackContext)
+  nameWithType: InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+  fullName: InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+  spec.csharp:
+  - uid: Global.InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+    name: OnMove
+    nameWithType: InputSystem_Actions.IPlayerActions.OnMove
+    fullName: InputSystem_Actions.IPlayerActions.OnMove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.InputAction.CallbackContext
+    name: InputAction.CallbackContext
+    nameWithType: InputAction.CallbackContext
+    fullName: InputAction.CallbackContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+    name: OnMove
+    nameWithType: InputSystem_Actions.IPlayerActions.OnMove
+    fullName: InputSystem_Actions.IPlayerActions.OnMove
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.InputAction.CallbackContext
+    name: InputAction.CallbackContext
+    nameWithType: InputAction.CallbackContext
+    fullName: InputAction.CallbackContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: InputAction.CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext
+- uid: Global.InputHandler.OnLook*
+  commentId: Overload:Global.InputHandler.OnLook
+  name: OnLook
+  nameWithType: InputHandler.OnLook
+  fullName: InputHandler.OnLook
+- uid: Global.UnityEngine.InputSystem.InputAction.CallbackContext
+  isExternal: true
+  name: UnityEngine.InputSystem.InputAction.CallbackContext
+  nameWithType: UnityEngine.InputSystem.InputAction.CallbackContext
+  fullName: UnityEngine.InputSystem.InputAction.CallbackContext
+- uid: Global.InputHandler.OnInteract*
+  commentId: Overload:Global.InputHandler.OnInteract
+  name: OnInteract
+  nameWithType: InputHandler.OnInteract
+  fullName: InputHandler.OnInteract

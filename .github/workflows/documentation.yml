@@ -1,0 +1,43 @@
+name: Build and Deploy Documentation
+
+on:
+  push:
+    branches: [ master, main ]  # Запуск при пуше в основную ветку
+    paths:
+      - 'Documentation/**'      # Запуск только при изменении файлов в Documentation
+      - 'Assets/**/*.cs'        # И при изменении C# файлов
+  workflow_dispatch:            # Возможность запуска вручную
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Шаг 1: Проверяем репозиторий
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # Шаг 2: Устанавливаем .NET SDK
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.x
+
+      # Шаг 3: Устанавливаем DocFX
+      - name: Setup DocFX
+        run: dotnet tool update -g docfx
+
+      # Шаг 4: Добавление пустого файоа .bojekyll для удаления стилей от gh pages
+      - name: Create .nojekyll file
+        run: echo "" > docs/_site/.nojekyll
+
+      # Шаг 5: Собираем документацию
+      - name: Build Documentation
+        run: docfx Documentation/docfx.json
+
+      # Шаг 6: Деплоим в GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site      # Папка с построенной документацией
+          branch: gh-pages   # Ветка для деплоя
+          clean: true        # Очищать ветку перед деплоем

@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.WalkState
+  commentId: T:Global.WalkState
+  id: WalkState
+  parent: Global
+  children:
+  - Global.WalkState.#ctor(CharacterBase,System.Single)
+  - Global.WalkState.Enter
+  - Global.WalkState.Exit
+  - Global.WalkState.Update
+  langs:
+  - csharp
+  - vb
+  name: WalkState
+  nameWithType: WalkState
+  fullName: WalkState
+  type: Class
+  source:
+    id: WalkState
+    path: ''
+    startLine: 59860
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class WalkState : IState'
+    content.vb: >-
+      Public Class WalkState
+          Implements IState
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.WalkState.#ctor(CharacterBase,System.Single)
+  commentId: M:Global.WalkState.#ctor(CharacterBase,System.Single)
+  id: '#ctor(CharacterBase,System.Single)'
+  parent: Global.WalkState
+  langs:
+  - csharp
+  - vb
+  name: WalkState(CharacterBase, Single)
+  nameWithType: WalkState.WalkState(CharacterBase, Single)
+  fullName: WalkState.WalkState(CharacterBase, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 59865
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public WalkState(CharacterBase character, float walkSpeed)
+    parameters:
+    - id: character
+      type: Global.CharacterBase
+    - id: walkSpeed
+      type: System.Single
+    content.vb: Public Sub New(character As CharacterBase, walkSpeed As Single)
+  overload: Global.WalkState.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.WalkState.Enter
+  commentId: M:Global.WalkState.Enter
+  id: Enter
+  parent: Global.WalkState
+  langs:
+  - csharp
+  - vb
+  name: Enter()
+  nameWithType: WalkState.Enter()
+  fullName: WalkState.Enter()
+  type: Method
+  source:
+    id: Enter
+    path: ''
+    startLine: 59871
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Enter()
+    content.vb: Public Sub Enter
+  overload: Global.WalkState.Enter*
+  implements:
+  - Global.IState.Enter
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.WalkState.Exit
+  commentId: M:Global.WalkState.Exit
+  id: Exit
+  parent: Global.WalkState
+  langs:
+  - csharp
+  - vb
+  name: Exit()
+  nameWithType: WalkState.Exit()
+  fullName: WalkState.Exit()
+  type: Method
+  source:
+    id: Exit
+    path: ''
+    startLine: 59876
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Exit()
+    content.vb: Public Sub Exit
+  overload: Global.WalkState.Exit*
+  implements:
+  - Global.IState.Exit
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.WalkState.Update
+  commentId: M:Global.WalkState.Update
+  id: Update
+  parent: Global.WalkState
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: WalkState.Update()
+  fullName: WalkState.Update()
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 59882
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Global.WalkState.Update*
+  implements:
+  - Global.IState.Update
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.IState
+  commentId: T:Global.IState
+  name: IState
+  nameWithType: IState
+  fullName: IState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.WalkState.#ctor*
+  commentId: Overload:Global.WalkState.#ctor
+  name: WalkState
+  nameWithType: WalkState.WalkState
+  fullName: WalkState.WalkState
+- uid: Global.CharacterBase
+  commentId: T:Global.CharacterBase
+  name: CharacterBase
+  nameWithType: CharacterBase
+  fullName: CharacterBase
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.WalkState.Enter*
+  commentId: Overload:Global.WalkState.Enter
+  name: Enter
+  nameWithType: WalkState.Enter
+  fullName: WalkState.Enter
+- uid: Global.IState.Enter
+  commentId: M:Global.IState.Enter
+  parent: Global.IState
+  name: Enter()
+  nameWithType: IState.Enter()
+  fullName: IState.Enter()
+  spec.csharp:
+  - uid: Global.IState.Enter
+    name: Enter
+    nameWithType: IState.Enter
+    fullName: IState.Enter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IState.Enter
+    name: Enter
+    nameWithType: IState.Enter
+    fullName: IState.Enter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.WalkState.Exit*
+  commentId: Overload:Global.WalkState.Exit
+  name: Exit
+  nameWithType: WalkState.Exit
+  fullName: WalkState.Exit
+- uid: Global.IState.Exit
+  commentId: M:Global.IState.Exit
+  parent: Global.IState
+  name: Exit()
+  nameWithType: IState.Exit()
+  fullName: IState.Exit()
+  spec.csharp:
+  - uid: Global.IState.Exit
+    name: Exit
+    nameWithType: IState.Exit
+    fullName: IState.Exit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IState.Exit
+    name: Exit
+    nameWithType: IState.Exit
+    fullName: IState.Exit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.WalkState.Update*
+  commentId: Overload:Global.WalkState.Update
+  name: Update
+  nameWithType: WalkState.Update
+  fullName: WalkState.Update
+- uid: Global.IState.Update
+  commentId: M:Global.IState.Update
+  parent: Global.IState
+  name: Update()
+  nameWithType: IState.Update()
+  fullName: IState.Update()
+  spec.csharp:
+  - uid: Global.IState.Update
+    name: Update
+    nameWithType: IState.Update
+    fullName: IState.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IState.Update
+    name: Update
+    nameWithType: IState.Update
+    fullName: IState.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

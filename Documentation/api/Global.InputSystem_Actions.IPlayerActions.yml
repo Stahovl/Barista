@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.InputSystem_Actions.IPlayerActions
+  commentId: T:Global.InputSystem_Actions.IPlayerActions
+  id: InputSystem_Actions.IPlayerActions
+  parent: Global
+  children:
+  - Global.InputSystem_Actions.IPlayerActions.OnInteract(InputAction.CallbackContext)
+  - Global.InputSystem_Actions.IPlayerActions.OnLook(InputAction.CallbackContext)
+  - Global.InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+  langs:
+  - csharp
+  - vb
+  name: InputSystem_Actions.IPlayerActions
+  nameWithType: InputSystem_Actions.IPlayerActions
+  fullName: InputSystem_Actions.IPlayerActions
+  type: Interface
+  source:
+    id: IPlayerActions
+    path: ''
+    startLine: 59573
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public interface IPlayerActions
+    content.vb: Public Interface IPlayerActions
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Global.InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+  commentId: M:Global.InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+  id: OnMove(InputAction.CallbackContext)
+  parent: Global.InputSystem_Actions.IPlayerActions
+  langs:
+  - csharp
+  - vb
+  name: OnMove(InputAction.CallbackContext)
+  nameWithType: InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+  fullName: InputSystem_Actions.IPlayerActions.OnMove(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnMove
+    path: ''
+    startLine: 59575
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void OnMove(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnMove(context As InputAction.CallbackContext)
+  overload: Global.InputSystem_Actions.IPlayerActions.OnMove*
+- uid: Global.InputSystem_Actions.IPlayerActions.OnLook(InputAction.CallbackContext)
+  commentId: M:Global.InputSystem_Actions.IPlayerActions.OnLook(InputAction.CallbackContext)
+  id: OnLook(InputAction.CallbackContext)
+  parent: Global.InputSystem_Actions.IPlayerActions
+  langs:
+  - csharp
+  - vb
+  name: OnLook(InputAction.CallbackContext)
+  nameWithType: InputSystem_Actions.IPlayerActions.OnLook(InputAction.CallbackContext)
+  fullName: InputSystem_Actions.IPlayerActions.OnLook(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnLook
+    path: ''
+    startLine: 59576
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void OnLook(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnLook(context As InputAction.CallbackContext)
+  overload: Global.InputSystem_Actions.IPlayerActions.OnLook*
+- uid: Global.InputSystem_Actions.IPlayerActions.OnInteract(InputAction.CallbackContext)
+  commentId: M:Global.InputSystem_Actions.IPlayerActions.OnInteract(InputAction.CallbackContext)
+  id: OnInteract(InputAction.CallbackContext)
+  parent: Global.InputSystem_Actions.IPlayerActions
+  langs:
+  - csharp
+  - vb
+  name: OnInteract(InputAction.CallbackContext)
+  nameWithType: InputSystem_Actions.IPlayerActions.OnInteract(InputAction.CallbackContext)
+  fullName: InputSystem_Actions.IPlayerActions.OnInteract(InputAction.CallbackContext)
+  type: Method
+  source:
+    id: OnInteract
+    path: ''
+    startLine: 59577
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void OnInteract(InputAction.CallbackContext context)
+    parameters:
+    - id: context
+      type: Global.InputAction.CallbackContext
+    content.vb: Sub OnInteract(context As InputAction.CallbackContext)
+  overload: Global.InputSystem_Actions.IPlayerActions.OnInteract*
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.InputSystem_Actions.IPlayerActions.OnMove*
+  commentId: Overload:Global.InputSystem_Actions.IPlayerActions.OnMove
+  name: OnMove
+  nameWithType: InputSystem_Actions.IPlayerActions.OnMove
+  fullName: InputSystem_Actions.IPlayerActions.OnMove
+- uid: Global.InputAction.CallbackContext
+  isExternal: true
+  name: InputAction.CallbackContext
+  nameWithType: InputAction.CallbackContext
+  fullName: InputAction.CallbackContext
+- uid: Global.InputSystem_Actions.IPlayerActions.OnLook*
+  commentId: Overload:Global.InputSystem_Actions.IPlayerActions.OnLook
+  name: OnLook
+  nameWithType: InputSystem_Actions.IPlayerActions.OnLook
+  fullName: InputSystem_Actions.IPlayerActions.OnLook
+- uid: Global.InputSystem_Actions.IPlayerActions.OnInteract*
+  commentId: Overload:Global.InputSystem_Actions.IPlayerActions.OnInteract
+  name: OnInteract
+  nameWithType: InputSystem_Actions.IPlayerActions.OnInteract
+  fullName: InputSystem_Actions.IPlayerActions.OnInteract

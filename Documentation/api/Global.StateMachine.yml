@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.StateMachine
+  commentId: T:Global.StateMachine
+  id: StateMachine
+  parent: Global
+  children:
+  - Global.StateMachine.ChangeState(IState)
+  - Global.StateMachine.CurrentState
+  - Global.StateMachine.OnStateChanged(IState)
+  - Global.StateMachine.Start
+  langs:
+  - csharp
+  - vb
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: StateMachine
+  type: Class
+  source:
+    id: StateMachine
+    path: ''
+    startLine: 59836
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public abstract class StateMachine : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class StateMachine
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.CharacterBase
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Global.StateMachine.CurrentState
+  commentId: F:Global.StateMachine.CurrentState
+  id: CurrentState
+  parent: Global.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: CurrentState
+  nameWithType: StateMachine.CurrentState
+  fullName: StateMachine.CurrentState
+  type: Field
+  source:
+    id: CurrentState
+    path: ''
+    startLine: 59838
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected ReactiveProperty<IState> CurrentState
+    return:
+      type: Global.ReactiveProperty{IState}
+    content.vb: Protected CurrentState As ReactiveProperty(Of IState)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.StateMachine.Start
+  commentId: M:Global.StateMachine.Start
+  id: Start
+  parent: Global.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: StateMachine.Start()
+  fullName: StateMachine.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 59840
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected virtual void Start()
+    content.vb: Protected Overridable Sub Start
+  overload: Global.StateMachine.Start*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Global.StateMachine.OnStateChanged(IState)
+  commentId: M:Global.StateMachine.OnStateChanged(IState)
+  id: OnStateChanged(IState)
+  parent: Global.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: OnStateChanged(IState)
+  nameWithType: StateMachine.OnStateChanged(IState)
+  fullName: StateMachine.OnStateChanged(IState)
+  type: Method
+  source:
+    id: OnStateChanged
+    path: ''
+    startLine: 59845
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected virtual void OnStateChanged(IState newState)
+    parameters:
+    - id: newState
+      type: Global.IState
+    content.vb: Protected Overridable Sub OnStateChanged(newState As IState)
+  overload: Global.StateMachine.OnStateChanged*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Global.StateMachine.ChangeState(IState)
+  commentId: M:Global.StateMachine.ChangeState(IState)
+  id: ChangeState(IState)
+  parent: Global.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: ChangeState(IState)
+  nameWithType: StateMachine.ChangeState(IState)
+  fullName: StateMachine.ChangeState(IState)
+  type: Method
+  source:
+    id: ChangeState
+    path: ''
+    startLine: 59850
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ChangeState(IState newState)
+    parameters:
+    - id: newState
+      type: Global.IState
+    content.vb: Public Sub ChangeState(newState As IState)
+  overload: Global.StateMachine.ChangeState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ReactiveProperty{IState}
+  commentId: T:Global.ReactiveProperty{IState}
+  definition: Global.ReactiveProperty`1
+  name: ReactiveProperty<IState>
+  nameWithType: ReactiveProperty<IState>
+  fullName: ReactiveProperty<IState>
+  nameWithType.vb: ReactiveProperty(Of IState)
+  fullName.vb: ReactiveProperty(Of IState)
+  name.vb: ReactiveProperty(Of IState)
+  spec.csharp:
+  - uid: Global.ReactiveProperty`1
+    name: ReactiveProperty
+    nameWithType: ReactiveProperty
+    fullName: ReactiveProperty
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.IState
+    name: IState
+    nameWithType: IState
+    fullName: IState
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ReactiveProperty`1
+    name: ReactiveProperty
+    nameWithType: ReactiveProperty
+    fullName: ReactiveProperty
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.IState
+    name: IState
+    nameWithType: IState
+    fullName: IState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ReactiveProperty`1
+  commentId: T:Global.ReactiveProperty`1
+  name: ReactiveProperty<T>
+  nameWithType: ReactiveProperty<T>
+  fullName: ReactiveProperty<T>
+  nameWithType.vb: ReactiveProperty(Of T)
+  fullName.vb: ReactiveProperty(Of T)
+  name.vb: ReactiveProperty(Of T)
+  spec.csharp:
+  - uid: Global.ReactiveProperty`1
+    name: ReactiveProperty
+    nameWithType: ReactiveProperty
+    fullName: ReactiveProperty
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ReactiveProperty`1
+    name: ReactiveProperty
+    nameWithType: ReactiveProperty
+    fullName: ReactiveProperty
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.StateMachine.Start*
+  commentId: Overload:Global.StateMachine.Start
+  name: Start
+  nameWithType: StateMachine.Start
+  fullName: StateMachine.Start
+- uid: Global.StateMachine.OnStateChanged*
+  commentId: Overload:Global.StateMachine.OnStateChanged
+  name: OnStateChanged
+  nameWithType: StateMachine.OnStateChanged
+  fullName: StateMachine.OnStateChanged
+- uid: Global.IState
+  commentId: T:Global.IState
+  name: IState
+  nameWithType: IState
+  fullName: IState
+- uid: Global.StateMachine.ChangeState*
+  commentId: Overload:Global.StateMachine.ChangeState
+  name: ChangeState
+  nameWithType: StateMachine.ChangeState
+  fullName: StateMachine.ChangeState

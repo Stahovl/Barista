@@ -1,0 +1,777 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.InputSystem_Actions.UIActions
+  commentId: T:Global.InputSystem_Actions.UIActions
+  id: InputSystem_Actions.UIActions
+  parent: Global
+  children:
+  - Global.InputSystem_Actions.UIActions.#ctor(InputSystem_Actions)
+  - Global.InputSystem_Actions.UIActions.AddCallbacks(InputSystem_Actions.IUIActions)
+  - Global.InputSystem_Actions.UIActions.Cancel
+  - Global.InputSystem_Actions.UIActions.Click
+  - Global.InputSystem_Actions.UIActions.Disable
+  - Global.InputSystem_Actions.UIActions.Enable
+  - Global.InputSystem_Actions.UIActions.enabled
+  - Global.InputSystem_Actions.UIActions.Get
+  - Global.InputSystem_Actions.UIActions.MiddleClick
+  - Global.InputSystem_Actions.UIActions.Navigate
+  - Global.InputSystem_Actions.UIActions.op_Implicit(InputSystem_Actions.UIActions)~InputActionMap
+  - Global.InputSystem_Actions.UIActions.Point
+  - Global.InputSystem_Actions.UIActions.RemoveCallbacks(InputSystem_Actions.IUIActions)
+  - Global.InputSystem_Actions.UIActions.RightClick
+  - Global.InputSystem_Actions.UIActions.ScrollWheel
+  - Global.InputSystem_Actions.UIActions.SetCallbacks(InputSystem_Actions.IUIActions)
+  - Global.InputSystem_Actions.UIActions.Submit
+  - Global.InputSystem_Actions.UIActions.TrackedDeviceOrientation
+  - Global.InputSystem_Actions.UIActions.TrackedDevicePosition
+  langs:
+  - csharp
+  - vb
+  name: InputSystem_Actions.UIActions
+  nameWithType: InputSystem_Actions.UIActions
+  fullName: InputSystem_Actions.UIActions
+  type: Struct
+  source:
+    id: UIActions
+    path: ''
+    startLine: 59424
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct UIActions
+    content.vb: Public Structure UIActions
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.InputSystem_Actions.UIActions.#ctor(InputSystem_Actions)
+  commentId: M:Global.InputSystem_Actions.UIActions.#ctor(InputSystem_Actions)
+  id: '#ctor(InputSystem_Actions)'
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: UIActions(InputSystem_Actions)
+  nameWithType: InputSystem_Actions.UIActions.UIActions(InputSystem_Actions)
+  fullName: InputSystem_Actions.UIActions.UIActions(InputSystem_Actions)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 59427
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UIActions(InputSystem_Actions wrapper)
+    parameters:
+    - id: wrapper
+      type: Global.InputSystem_Actions
+    content.vb: Public Sub New(wrapper As InputSystem_Actions)
+  overload: Global.InputSystem_Actions.UIActions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.UIActions.Navigate
+  commentId: P:Global.InputSystem_Actions.UIActions.Navigate
+  id: Navigate
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Navigate
+  nameWithType: InputSystem_Actions.UIActions.Navigate
+  fullName: InputSystem_Actions.UIActions.Navigate
+  type: Property
+  source:
+    id: Navigate
+    path: ''
+    startLine: 59428
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction Navigate { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Navigate As InputAction
+  overload: Global.InputSystem_Actions.UIActions.Navigate*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.Submit
+  commentId: P:Global.InputSystem_Actions.UIActions.Submit
+  id: Submit
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Submit
+  nameWithType: InputSystem_Actions.UIActions.Submit
+  fullName: InputSystem_Actions.UIActions.Submit
+  type: Property
+  source:
+    id: Submit
+    path: ''
+    startLine: 59429
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction Submit { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Submit As InputAction
+  overload: Global.InputSystem_Actions.UIActions.Submit*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.Cancel
+  commentId: P:Global.InputSystem_Actions.UIActions.Cancel
+  id: Cancel
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Cancel
+  nameWithType: InputSystem_Actions.UIActions.Cancel
+  fullName: InputSystem_Actions.UIActions.Cancel
+  type: Property
+  source:
+    id: Cancel
+    path: ''
+    startLine: 59430
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction Cancel { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Cancel As InputAction
+  overload: Global.InputSystem_Actions.UIActions.Cancel*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.Point
+  commentId: P:Global.InputSystem_Actions.UIActions.Point
+  id: Point
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Point
+  nameWithType: InputSystem_Actions.UIActions.Point
+  fullName: InputSystem_Actions.UIActions.Point
+  type: Property
+  source:
+    id: Point
+    path: ''
+    startLine: 59431
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction Point { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Point As InputAction
+  overload: Global.InputSystem_Actions.UIActions.Point*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.Click
+  commentId: P:Global.InputSystem_Actions.UIActions.Click
+  id: Click
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Click
+  nameWithType: InputSystem_Actions.UIActions.Click
+  fullName: InputSystem_Actions.UIActions.Click
+  type: Property
+  source:
+    id: Click
+    path: ''
+    startLine: 59432
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction Click { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Click As InputAction
+  overload: Global.InputSystem_Actions.UIActions.Click*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.RightClick
+  commentId: P:Global.InputSystem_Actions.UIActions.RightClick
+  id: RightClick
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: RightClick
+  nameWithType: InputSystem_Actions.UIActions.RightClick
+  fullName: InputSystem_Actions.UIActions.RightClick
+  type: Property
+  source:
+    id: RightClick
+    path: ''
+    startLine: 59433
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction RightClick { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property RightClick As InputAction
+  overload: Global.InputSystem_Actions.UIActions.RightClick*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.MiddleClick
+  commentId: P:Global.InputSystem_Actions.UIActions.MiddleClick
+  id: MiddleClick
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: MiddleClick
+  nameWithType: InputSystem_Actions.UIActions.MiddleClick
+  fullName: InputSystem_Actions.UIActions.MiddleClick
+  type: Property
+  source:
+    id: MiddleClick
+    path: ''
+    startLine: 59434
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction MiddleClick { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property MiddleClick As InputAction
+  overload: Global.InputSystem_Actions.UIActions.MiddleClick*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.ScrollWheel
+  commentId: P:Global.InputSystem_Actions.UIActions.ScrollWheel
+  id: ScrollWheel
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: ScrollWheel
+  nameWithType: InputSystem_Actions.UIActions.ScrollWheel
+  fullName: InputSystem_Actions.UIActions.ScrollWheel
+  type: Property
+  source:
+    id: ScrollWheel
+    path: ''
+    startLine: 59435
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction ScrollWheel { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property ScrollWheel As InputAction
+  overload: Global.InputSystem_Actions.UIActions.ScrollWheel*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.TrackedDevicePosition
+  commentId: P:Global.InputSystem_Actions.UIActions.TrackedDevicePosition
+  id: TrackedDevicePosition
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: TrackedDevicePosition
+  nameWithType: InputSystem_Actions.UIActions.TrackedDevicePosition
+  fullName: InputSystem_Actions.UIActions.TrackedDevicePosition
+  type: Property
+  source:
+    id: TrackedDevicePosition
+    path: ''
+    startLine: 59436
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction TrackedDevicePosition { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property TrackedDevicePosition As InputAction
+  overload: Global.InputSystem_Actions.UIActions.TrackedDevicePosition*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.TrackedDeviceOrientation
+  commentId: P:Global.InputSystem_Actions.UIActions.TrackedDeviceOrientation
+  id: TrackedDeviceOrientation
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: TrackedDeviceOrientation
+  nameWithType: InputSystem_Actions.UIActions.TrackedDeviceOrientation
+  fullName: InputSystem_Actions.UIActions.TrackedDeviceOrientation
+  type: Property
+  source:
+    id: TrackedDeviceOrientation
+    path: ''
+    startLine: 59437
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction TrackedDeviceOrientation { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property TrackedDeviceOrientation As InputAction
+  overload: Global.InputSystem_Actions.UIActions.TrackedDeviceOrientation*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.Get
+  commentId: M:Global.InputSystem_Actions.UIActions.Get
+  id: Get
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Get()
+  nameWithType: InputSystem_Actions.UIActions.Get()
+  fullName: InputSystem_Actions.UIActions.Get()
+  type: Method
+  source:
+    id: Get
+    path: ''
+    startLine: 59438
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public InputActionMap Get()
+    return:
+      type: Global.InputActionMap
+    content.vb: Public Function Get As InputActionMap
+  overload: Global.InputSystem_Actions.UIActions.Get*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.UIActions.Enable
+  commentId: M:Global.InputSystem_Actions.UIActions.Enable
+  id: Enable
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Enable()
+  nameWithType: InputSystem_Actions.UIActions.Enable()
+  fullName: InputSystem_Actions.UIActions.Enable()
+  type: Method
+  source:
+    id: Enable
+    path: ''
+    startLine: 59439
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Enable()
+    content.vb: Public Sub Enable
+  overload: Global.InputSystem_Actions.UIActions.Enable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.UIActions.Disable
+  commentId: M:Global.InputSystem_Actions.UIActions.Disable
+  id: Disable
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Disable()
+  nameWithType: InputSystem_Actions.UIActions.Disable()
+  fullName: InputSystem_Actions.UIActions.Disable()
+  type: Method
+  source:
+    id: Disable
+    path: ''
+    startLine: 59440
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Disable()
+    content.vb: Public Sub Disable
+  overload: Global.InputSystem_Actions.UIActions.Disable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.UIActions.enabled
+  commentId: P:Global.InputSystem_Actions.UIActions.enabled
+  id: enabled
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: enabled
+  nameWithType: InputSystem_Actions.UIActions.enabled
+  fullName: InputSystem_Actions.UIActions.enabled
+  type: Property
+  source:
+    id: enabled
+    path: ''
+    startLine: 59441
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly bool enabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property enabled As Boolean
+  overload: Global.InputSystem_Actions.UIActions.enabled*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.UIActions.op_Implicit(InputSystem_Actions.UIActions)~InputActionMap
+  commentId: M:Global.InputSystem_Actions.UIActions.op_Implicit(InputSystem_Actions.UIActions)~InputActionMap
+  id: op_Implicit(InputSystem_Actions.UIActions)~InputActionMap
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: Implicit(InputSystem_Actions.UIActions to InputActionMap)
+  nameWithType: InputSystem_Actions.UIActions.Implicit(InputSystem_Actions.UIActions to InputActionMap)
+  fullName: InputSystem_Actions.UIActions.Implicit(InputSystem_Actions.UIActions to InputActionMap)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 59442
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static implicit operator InputActionMap(InputSystem_Actions.UIActions set)
+    parameters:
+    - id: set
+      type: Global.InputSystem_Actions.UIActions
+    return:
+      type: Global.InputActionMap
+    content.vb: Public Shared Widening Operator CType(set As InputSystem_Actions.UIActions) As InputActionMap
+  overload: Global.InputSystem_Actions.UIActions.op_Implicit*
+  nameWithType.vb: InputSystem_Actions.UIActions.Widening(InputSystem_Actions.UIActions to InputActionMap)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: InputSystem_Actions.UIActions.Widening(InputSystem_Actions.UIActions to InputActionMap)
+  name.vb: Widening(InputSystem_Actions.UIActions to InputActionMap)
+- uid: Global.InputSystem_Actions.UIActions.AddCallbacks(InputSystem_Actions.IUIActions)
+  commentId: M:Global.InputSystem_Actions.UIActions.AddCallbacks(InputSystem_Actions.IUIActions)
+  id: AddCallbacks(InputSystem_Actions.IUIActions)
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: AddCallbacks(InputSystem_Actions.IUIActions)
+  nameWithType: InputSystem_Actions.UIActions.AddCallbacks(InputSystem_Actions.IUIActions)
+  fullName: InputSystem_Actions.UIActions.AddCallbacks(InputSystem_Actions.IUIActions)
+  type: Method
+  source:
+    id: AddCallbacks
+    path: ''
+    startLine: 59443
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddCallbacks(InputSystem_Actions.IUIActions instance)
+    parameters:
+    - id: instance
+      type: Global.InputSystem_Actions.IUIActions
+    content.vb: Public Sub AddCallbacks(instance As InputSystem_Actions.IUIActions)
+  overload: Global.InputSystem_Actions.UIActions.AddCallbacks*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.UIActions.RemoveCallbacks(InputSystem_Actions.IUIActions)
+  commentId: M:Global.InputSystem_Actions.UIActions.RemoveCallbacks(InputSystem_Actions.IUIActions)
+  id: RemoveCallbacks(InputSystem_Actions.IUIActions)
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: RemoveCallbacks(InputSystem_Actions.IUIActions)
+  nameWithType: InputSystem_Actions.UIActions.RemoveCallbacks(InputSystem_Actions.IUIActions)
+  fullName: InputSystem_Actions.UIActions.RemoveCallbacks(InputSystem_Actions.IUIActions)
+  type: Method
+  source:
+    id: RemoveCallbacks
+    path: ''
+    startLine: 59513
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RemoveCallbacks(InputSystem_Actions.IUIActions instance)
+    parameters:
+    - id: instance
+      type: Global.InputSystem_Actions.IUIActions
+    content.vb: Public Sub RemoveCallbacks(instance As InputSystem_Actions.IUIActions)
+  overload: Global.InputSystem_Actions.UIActions.RemoveCallbacks*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.UIActions.SetCallbacks(InputSystem_Actions.IUIActions)
+  commentId: M:Global.InputSystem_Actions.UIActions.SetCallbacks(InputSystem_Actions.IUIActions)
+  id: SetCallbacks(InputSystem_Actions.IUIActions)
+  parent: Global.InputSystem_Actions.UIActions
+  langs:
+  - csharp
+  - vb
+  name: SetCallbacks(InputSystem_Actions.IUIActions)
+  nameWithType: InputSystem_Actions.UIActions.SetCallbacks(InputSystem_Actions.IUIActions)
+  fullName: InputSystem_Actions.UIActions.SetCallbacks(InputSystem_Actions.IUIActions)
+  type: Method
+  source:
+    id: SetCallbacks
+    path: ''
+    startLine: 59519
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetCallbacks(InputSystem_Actions.IUIActions instance)
+    parameters:
+    - id: instance
+      type: Global.InputSystem_Actions.IUIActions
+    content.vb: Public Sub SetCallbacks(instance As InputSystem_Actions.IUIActions)
+  overload: Global.InputSystem_Actions.UIActions.SetCallbacks*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.InputSystem_Actions.UIActions.#ctor*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.#ctor
+  name: UIActions
+  nameWithType: InputSystem_Actions.UIActions.UIActions
+  fullName: InputSystem_Actions.UIActions.UIActions
+- uid: Global.InputSystem_Actions
+  commentId: T:Global.InputSystem_Actions
+  name: InputSystem_Actions
+  nameWithType: InputSystem_Actions
+  fullName: InputSystem_Actions
+- uid: Global.InputSystem_Actions.UIActions.Navigate*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.Navigate
+  name: Navigate
+  nameWithType: InputSystem_Actions.UIActions.Navigate
+  fullName: InputSystem_Actions.UIActions.Navigate
+- uid: Global.InputAction
+  isExternal: true
+  name: InputAction
+  nameWithType: InputAction
+  fullName: InputAction
+- uid: Global.InputSystem_Actions.UIActions.Submit*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.Submit
+  name: Submit
+  nameWithType: InputSystem_Actions.UIActions.Submit
+  fullName: InputSystem_Actions.UIActions.Submit
+- uid: Global.InputSystem_Actions.UIActions.Cancel*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.Cancel
+  name: Cancel
+  nameWithType: InputSystem_Actions.UIActions.Cancel
+  fullName: InputSystem_Actions.UIActions.Cancel
+- uid: Global.InputSystem_Actions.UIActions.Point*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.Point
+  name: Point
+  nameWithType: InputSystem_Actions.UIActions.Point
+  fullName: InputSystem_Actions.UIActions.Point
+- uid: Global.InputSystem_Actions.UIActions.Click*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.Click
+  name: Click
+  nameWithType: InputSystem_Actions.UIActions.Click
+  fullName: InputSystem_Actions.UIActions.Click
+- uid: Global.InputSystem_Actions.UIActions.RightClick*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.RightClick
+  name: RightClick
+  nameWithType: InputSystem_Actions.UIActions.RightClick
+  fullName: InputSystem_Actions.UIActions.RightClick
+- uid: Global.InputSystem_Actions.UIActions.MiddleClick*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.MiddleClick
+  name: MiddleClick
+  nameWithType: InputSystem_Actions.UIActions.MiddleClick
+  fullName: InputSystem_Actions.UIActions.MiddleClick
+- uid: Global.InputSystem_Actions.UIActions.ScrollWheel*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.ScrollWheel
+  name: ScrollWheel
+  nameWithType: InputSystem_Actions.UIActions.ScrollWheel
+  fullName: InputSystem_Actions.UIActions.ScrollWheel
+- uid: Global.InputSystem_Actions.UIActions.TrackedDevicePosition*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.TrackedDevicePosition
+  name: TrackedDevicePosition
+  nameWithType: InputSystem_Actions.UIActions.TrackedDevicePosition
+  fullName: InputSystem_Actions.UIActions.TrackedDevicePosition
+- uid: Global.InputSystem_Actions.UIActions.TrackedDeviceOrientation*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.TrackedDeviceOrientation
+  name: TrackedDeviceOrientation
+  nameWithType: InputSystem_Actions.UIActions.TrackedDeviceOrientation
+  fullName: InputSystem_Actions.UIActions.TrackedDeviceOrientation
+- uid: Global.InputSystem_Actions.UIActions.Get*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.Get
+  name: Get
+  nameWithType: InputSystem_Actions.UIActions.Get
+  fullName: InputSystem_Actions.UIActions.Get
+- uid: Global.InputActionMap
+  isExternal: true
+  name: InputActionMap
+  nameWithType: InputActionMap
+  fullName: InputActionMap
+- uid: Global.InputSystem_Actions.UIActions.Enable*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.Enable
+  name: Enable
+  nameWithType: InputSystem_Actions.UIActions.Enable
+  fullName: InputSystem_Actions.UIActions.Enable
+- uid: Global.InputSystem_Actions.UIActions.Disable*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.Disable
+  name: Disable
+  nameWithType: InputSystem_Actions.UIActions.Disable
+  fullName: InputSystem_Actions.UIActions.Disable
+- uid: Global.InputSystem_Actions.UIActions.enabled*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.enabled
+  name: enabled
+  nameWithType: InputSystem_Actions.UIActions.enabled
+  fullName: InputSystem_Actions.UIActions.enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.InputSystem_Actions.UIActions.op_Implicit*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.op_Implicit
+  name: Implicit
+  nameWithType: InputSystem_Actions.UIActions.Implicit
+  fullName: InputSystem_Actions.UIActions.Implicit
+  nameWithType.vb: InputSystem_Actions.UIActions.Widening
+  fullName.vb: InputSystem_Actions.UIActions.Widening
+  name.vb: Widening
+- uid: Global.InputSystem_Actions.UIActions
+  commentId: T:Global.InputSystem_Actions.UIActions
+  name: InputSystem_Actions.UIActions
+  nameWithType: InputSystem_Actions.UIActions
+  fullName: InputSystem_Actions.UIActions
+- uid: Global.InputSystem_Actions.UIActions.AddCallbacks*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.AddCallbacks
+  name: AddCallbacks
+  nameWithType: InputSystem_Actions.UIActions.AddCallbacks
+  fullName: InputSystem_Actions.UIActions.AddCallbacks
+- uid: Global.InputSystem_Actions.IUIActions
+  commentId: T:Global.InputSystem_Actions.IUIActions
+  name: InputSystem_Actions.IUIActions
+  nameWithType: InputSystem_Actions.IUIActions
+  fullName: InputSystem_Actions.IUIActions
+- uid: Global.InputSystem_Actions.UIActions.RemoveCallbacks*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.RemoveCallbacks
+  name: RemoveCallbacks
+  nameWithType: InputSystem_Actions.UIActions.RemoveCallbacks
+  fullName: InputSystem_Actions.UIActions.RemoveCallbacks
+- uid: Global.InputSystem_Actions.UIActions.SetCallbacks*
+  commentId: Overload:Global.InputSystem_Actions.UIActions.SetCallbacks
+  name: SetCallbacks
+  nameWithType: InputSystem_Actions.UIActions.SetCallbacks
+  fullName: InputSystem_Actions.UIActions.SetCallbacks

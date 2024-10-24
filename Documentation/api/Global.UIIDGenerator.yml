@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UIIDGenerator
+  commentId: T:Global.UIIDGenerator
+  id: UIIDGenerator
+  parent: Global
+  children:
+  - Global.UIIDGenerator.ShowWindow
+  langs:
+  - csharp
+  - vb
+  name: UIIDGenerator
+  nameWithType: UIIDGenerator
+  fullName: UIIDGenerator
+  type: Class
+  source:
+    id: UIIDGenerator
+    path: ''
+    startLine: 773
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UIIDGenerator : EditorWindow'
+    content.vb: >-
+      Public Class UIIDGenerator
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UIIDGenerator.ShowWindow
+  commentId: M:Global.UIIDGenerator.ShowWindow
+  id: ShowWindow
+  parent: Global.UIIDGenerator
+  langs:
+  - csharp
+  - vb
+  name: ShowWindow()
+  nameWithType: UIIDGenerator.ShowWindow()
+  fullName: UIIDGenerator.ShowWindow()
+  type: Method
+  source:
+    id: ShowWindow
+    path: ''
+    startLine: 775
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void ShowWindow()
+    content.vb: Public Shared Sub ShowWindow
+  overload: Global.UIIDGenerator.ShowWindow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UIIDGenerator.ShowWindow*
+  commentId: Overload:Global.UIIDGenerator.ShowWindow
+  name: ShowWindow
+  nameWithType: UIIDGenerator.ShowWindow
+  fullName: UIIDGenerator.ShowWindow

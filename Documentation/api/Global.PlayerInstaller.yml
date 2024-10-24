@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlayerInstaller
+  commentId: T:Global.PlayerInstaller
+  id: PlayerInstaller
+  parent: Global
+  children:
+  - Global.PlayerInstaller.InstallBindings
+  langs:
+  - csharp
+  - vb
+  name: PlayerInstaller
+  nameWithType: PlayerInstaller
+  fullName: PlayerInstaller
+  type: Class
+  source:
+    id: PlayerInstaller
+    path: ''
+    startLine: 59899
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PlayerInstaller : MonoInstaller'
+    content.vb: >-
+      Public Class PlayerInstaller
+          Inherits MonoInstaller
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PlayerInstaller.InstallBindings
+  commentId: M:Global.PlayerInstaller.InstallBindings
+  id: InstallBindings
+  parent: Global.PlayerInstaller
+  langs:
+  - csharp
+  - vb
+  name: InstallBindings()
+  nameWithType: PlayerInstaller.InstallBindings()
+  fullName: PlayerInstaller.InstallBindings()
+  type: Method
+  source:
+    id: InstallBindings
+    path: ''
+    startLine: 59901
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void InstallBindings()
+    content.vb: Public Overrides Sub InstallBindings
+  overload: Global.PlayerInstaller.InstallBindings*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.PlayerInstaller.InstallBindings*
+  commentId: Overload:Global.PlayerInstaller.InstallBindings
+  name: InstallBindings
+  nameWithType: PlayerInstaller.InstallBindings
+  fullName: PlayerInstaller.InstallBindings

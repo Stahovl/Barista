@@ -2,17 +2,21 @@ using UnityEngine;
 
 public abstract class StateMachine : MonoBehaviour
 {
-    protected IState _currentState;
+    protected ReactiveProperty<IState> CurrentState = new ReactiveProperty<IState>();
 
-    public void SetState(IState newState)
+    protected virtual void Start()
     {
-        _currentState?.Exit();
-        _currentState = newState;
-        _currentState.Enter();
+        CurrentState.Subscribe(OnStateChanged);
     }
 
-    protected virtual void Update()
+    protected virtual void OnStateChanged(IState newState)
     {
-        _currentState?.Update();
+        newState.Enter();
+    }
+
+    public void ChangeState(IState newState)
+    {
+        CurrentState.Value?.Exit();
+        CurrentState.Value = newState;
     }
 }

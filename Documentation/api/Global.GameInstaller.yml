@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GameInstaller
+  commentId: T:Global.GameInstaller
+  id: GameInstaller
+  parent: Global
+  children:
+  - Global.GameInstaller.InstallBindings
+  langs:
+  - csharp
+  - vb
+  name: GameInstaller
+  nameWithType: GameInstaller
+  fullName: GameInstaller
+  type: Class
+  source:
+    id: GameInstaller
+    path: ''
+    startLine: 59891
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class GameInstaller : MonoInstaller'
+    content.vb: >-
+      Public Class GameInstaller
+          Inherits MonoInstaller
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.GameInstaller.InstallBindings
+  commentId: M:Global.GameInstaller.InstallBindings
+  id: InstallBindings
+  parent: Global.GameInstaller
+  langs:
+  - csharp
+  - vb
+  name: InstallBindings()
+  nameWithType: GameInstaller.InstallBindings()
+  fullName: GameInstaller.InstallBindings()
+  type: Method
+  source:
+    id: InstallBindings
+    path: ''
+    startLine: 59893
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void InstallBindings()
+    content.vb: Public Overrides Sub InstallBindings
+  overload: Global.GameInstaller.InstallBindings*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameInstaller.InstallBindings*
+  commentId: Overload:Global.GameInstaller.InstallBindings
+  name: InstallBindings
+  nameWithType: GameInstaller.InstallBindings
+  fullName: GameInstaller.InstallBindings

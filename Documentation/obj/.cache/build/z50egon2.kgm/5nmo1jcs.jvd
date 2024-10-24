@@ -1,0 +1,98 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="Global.html" name="" title="Global">Global</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="Global.CharacterBase.html" name="" title="CharacterBase">CharacterBase</a>
+                          </li>
+                          <li>
+                              <a href="Global.DisposableAction.html" name="" title="DisposableAction">DisposableAction</a>
+                          </li>
+                          <li>
+                              <a href="Global.GameInstaller.html" name="" title="GameInstaller">GameInstaller</a>
+                          </li>
+                          <li>
+                              <a href="Global.InputHandler.html" name="" title="InputHandler">InputHandler</a>
+                          </li>
+                          <li>
+                              <a href="Global.InputSystem_Actions.html" name="" title="InputSystem_Actions">InputSystem_Actions</a>
+                          </li>
+                          <li>
+                              <a href="Global.InputSystem_Actions.IPlayerActions.html" name="" title="InputSystem_Actions.IPlayerActions">InputSystem_Actions.IPlayerActions</a>
+                          </li>
+                          <li>
+                              <a href="Global.InputSystem_Actions.IUIActions.html" name="" title="InputSystem_Actions.IUIActions">InputSystem_Actions.IUIActions</a>
+                          </li>
+                          <li>
+                              <a href="Global.InputSystem_Actions.PlayerActions.html" name="" title="InputSystem_Actions.PlayerActions">InputSystem_Actions.PlayerActions</a>
+                          </li>
+                          <li>
+                              <a href="Global.InputSystem_Actions.UIActions.html" name="" title="InputSystem_Actions.UIActions">InputSystem_Actions.UIActions</a>
+                          </li>
+                          <li>
+                              <a href="Global.IState.html" name="" title="IState">IState</a>
+                          </li>
+                          <li>
+                              <a href="Global.Movement.html" name="" title="Movement">Movement</a>
+                          </li>
+                          <li>
+                              <a href="Global.NPCIdleState.html" name="" title="NPCIdleState">NPCIdleState</a>
+                          </li>
+                          <li>
+                              <a href="Global.NPCModel.html" name="" title="NPCModel">NPCModel</a>
+                          </li>
+                          <li>
+                              <a href="Global.NPCPresenter.html" name="" title="NPCPresenter">NPCPresenter</a>
+                          </li>
+                          <li>
+                              <a href="Global.NPCView.html" name="" title="NPCView">NPCView</a>
+                          </li>
+                          <li>
+                              <a href="Global.PlayerIdleState.html" name="" title="PlayerIdleState">PlayerIdleState</a>
+                          </li>
+                          <li>
+                              <a href="Global.PlayerInstaller.html" name="" title="PlayerInstaller">PlayerInstaller</a>
+                          </li>
+                          <li>
+                              <a href="Global.PlayerModel.html" name="" title="PlayerModel">PlayerModel</a>
+                          </li>
+                          <li>
+                              <a href="Global.PlayerPresenter.html" name="" title="PlayerPresenter">PlayerPresenter</a>
+                          </li>
+                          <li>
+                              <a href="Global.PlayerView.html" name="" title="PlayerView">PlayerView</a>
+                          </li>
+                          <li>
+                              <a href="Global.ReactiveProperty-1.html" name="" title="ReactiveProperty&lt;T&gt;">ReactiveProperty&lt;T&gt;</a>
+                          </li>
+                          <li>
+                              <a href="Global.StateMachine.html" name="" title="StateMachine">StateMachine</a>
+                          </li>
+                          <li>
+                              <a href="Global.UIIDGenerator.html" name="" title="UIIDGenerator">UIIDGenerator</a>
+                          </li>
+                          <li>
+                              <a href="Global.WalkState.html" name="" title="WalkState">WalkState</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

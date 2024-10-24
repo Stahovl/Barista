@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.InputSystem_Actions.PlayerActions
+  commentId: T:Global.InputSystem_Actions.PlayerActions
+  id: InputSystem_Actions.PlayerActions
+  parent: Global
+  children:
+  - Global.InputSystem_Actions.PlayerActions.#ctor(InputSystem_Actions)
+  - Global.InputSystem_Actions.PlayerActions.AddCallbacks(InputSystem_Actions.IPlayerActions)
+  - Global.InputSystem_Actions.PlayerActions.Disable
+  - Global.InputSystem_Actions.PlayerActions.Enable
+  - Global.InputSystem_Actions.PlayerActions.enabled
+  - Global.InputSystem_Actions.PlayerActions.Get
+  - Global.InputSystem_Actions.PlayerActions.Interact
+  - Global.InputSystem_Actions.PlayerActions.Look
+  - Global.InputSystem_Actions.PlayerActions.Move
+  - Global.InputSystem_Actions.PlayerActions.op_Implicit(InputSystem_Actions.PlayerActions)~InputActionMap
+  - Global.InputSystem_Actions.PlayerActions.RemoveCallbacks(InputSystem_Actions.IPlayerActions)
+  - Global.InputSystem_Actions.PlayerActions.SetCallbacks(InputSystem_Actions.IPlayerActions)
+  langs:
+  - csharp
+  - vb
+  name: InputSystem_Actions.PlayerActions
+  nameWithType: InputSystem_Actions.PlayerActions
+  fullName: InputSystem_Actions.PlayerActions
+  type: Struct
+  source:
+    id: PlayerActions
+    path: ''
+    startLine: 59355
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct PlayerActions
+    content.vb: Public Structure PlayerActions
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.InputSystem_Actions.PlayerActions.#ctor(InputSystem_Actions)
+  commentId: M:Global.InputSystem_Actions.PlayerActions.#ctor(InputSystem_Actions)
+  id: '#ctor(InputSystem_Actions)'
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: PlayerActions(InputSystem_Actions)
+  nameWithType: InputSystem_Actions.PlayerActions.PlayerActions(InputSystem_Actions)
+  fullName: InputSystem_Actions.PlayerActions.PlayerActions(InputSystem_Actions)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 59358
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public PlayerActions(InputSystem_Actions wrapper)
+    parameters:
+    - id: wrapper
+      type: Global.InputSystem_Actions
+    content.vb: Public Sub New(wrapper As InputSystem_Actions)
+  overload: Global.InputSystem_Actions.PlayerActions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.PlayerActions.Move
+  commentId: P:Global.InputSystem_Actions.PlayerActions.Move
+  id: Move
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Move
+  nameWithType: InputSystem_Actions.PlayerActions.Move
+  fullName: InputSystem_Actions.PlayerActions.Move
+  type: Property
+  source:
+    id: Move
+    path: ''
+    startLine: 59359
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction Move { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Move As InputAction
+  overload: Global.InputSystem_Actions.PlayerActions.Move*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.PlayerActions.Look
+  commentId: P:Global.InputSystem_Actions.PlayerActions.Look
+  id: Look
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Look
+  nameWithType: InputSystem_Actions.PlayerActions.Look
+  fullName: InputSystem_Actions.PlayerActions.Look
+  type: Property
+  source:
+    id: Look
+    path: ''
+    startLine: 59360
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction Look { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Look As InputAction
+  overload: Global.InputSystem_Actions.PlayerActions.Look*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.PlayerActions.Interact
+  commentId: P:Global.InputSystem_Actions.PlayerActions.Interact
+  id: Interact
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Interact
+  nameWithType: InputSystem_Actions.PlayerActions.Interact
+  fullName: InputSystem_Actions.PlayerActions.Interact
+  type: Property
+  source:
+    id: Interact
+    path: ''
+    startLine: 59361
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly InputAction Interact { get; }
+    parameters: []
+    return:
+      type: Global.InputAction
+    content.vb: Public ReadOnly Property Interact As InputAction
+  overload: Global.InputSystem_Actions.PlayerActions.Interact*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.PlayerActions.Get
+  commentId: M:Global.InputSystem_Actions.PlayerActions.Get
+  id: Get
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Get()
+  nameWithType: InputSystem_Actions.PlayerActions.Get()
+  fullName: InputSystem_Actions.PlayerActions.Get()
+  type: Method
+  source:
+    id: Get
+    path: ''
+    startLine: 59362
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public InputActionMap Get()
+    return:
+      type: Global.InputActionMap
+    content.vb: Public Function Get As InputActionMap
+  overload: Global.InputSystem_Actions.PlayerActions.Get*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.PlayerActions.Enable
+  commentId: M:Global.InputSystem_Actions.PlayerActions.Enable
+  id: Enable
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Enable()
+  nameWithType: InputSystem_Actions.PlayerActions.Enable()
+  fullName: InputSystem_Actions.PlayerActions.Enable()
+  type: Method
+  source:
+    id: Enable
+    path: ''
+    startLine: 59363
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Enable()
+    content.vb: Public Sub Enable
+  overload: Global.InputSystem_Actions.PlayerActions.Enable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.PlayerActions.Disable
+  commentId: M:Global.InputSystem_Actions.PlayerActions.Disable
+  id: Disable
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Disable()
+  nameWithType: InputSystem_Actions.PlayerActions.Disable()
+  fullName: InputSystem_Actions.PlayerActions.Disable()
+  type: Method
+  source:
+    id: Disable
+    path: ''
+    startLine: 59364
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Disable()
+    content.vb: Public Sub Disable
+  overload: Global.InputSystem_Actions.PlayerActions.Disable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.PlayerActions.enabled
+  commentId: P:Global.InputSystem_Actions.PlayerActions.enabled
+  id: enabled
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: enabled
+  nameWithType: InputSystem_Actions.PlayerActions.enabled
+  fullName: InputSystem_Actions.PlayerActions.enabled
+  type: Property
+  source:
+    id: enabled
+    path: ''
+    startLine: 59365
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public readonly bool enabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property enabled As Boolean
+  overload: Global.InputSystem_Actions.PlayerActions.enabled*
+  modifiers.csharp:
+  - public
+  - readonly
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.InputSystem_Actions.PlayerActions.op_Implicit(InputSystem_Actions.PlayerActions)~InputActionMap
+  commentId: M:Global.InputSystem_Actions.PlayerActions.op_Implicit(InputSystem_Actions.PlayerActions)~InputActionMap
+  id: op_Implicit(InputSystem_Actions.PlayerActions)~InputActionMap
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: Implicit(InputSystem_Actions.PlayerActions to InputActionMap)
+  nameWithType: InputSystem_Actions.PlayerActions.Implicit(InputSystem_Actions.PlayerActions to InputActionMap)
+  fullName: InputSystem_Actions.PlayerActions.Implicit(InputSystem_Actions.PlayerActions to InputActionMap)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 59366
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static implicit operator InputActionMap(InputSystem_Actions.PlayerActions set)
+    parameters:
+    - id: set
+      type: Global.InputSystem_Actions.PlayerActions
+    return:
+      type: Global.InputActionMap
+    content.vb: Public Shared Widening Operator CType(set As InputSystem_Actions.PlayerActions) As InputActionMap
+  overload: Global.InputSystem_Actions.PlayerActions.op_Implicit*
+  nameWithType.vb: InputSystem_Actions.PlayerActions.Widening(InputSystem_Actions.PlayerActions to InputActionMap)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: InputSystem_Actions.PlayerActions.Widening(InputSystem_Actions.PlayerActions to InputActionMap)
+  name.vb: Widening(InputSystem_Actions.PlayerActions to InputActionMap)
+- uid: Global.InputSystem_Actions.PlayerActions.AddCallbacks(InputSystem_Actions.IPlayerActions)
+  commentId: M:Global.InputSystem_Actions.PlayerActions.AddCallbacks(InputSystem_Actions.IPlayerActions)
+  id: AddCallbacks(InputSystem_Actions.IPlayerActions)
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: AddCallbacks(InputSystem_Actions.IPlayerActions)
+  nameWithType: InputSystem_Actions.PlayerActions.AddCallbacks(InputSystem_Actions.IPlayerActions)
+  fullName: InputSystem_Actions.PlayerActions.AddCallbacks(InputSystem_Actions.IPlayerActions)
+  type: Method
+  source:
+    id: AddCallbacks
+    path: ''
+    startLine: 59367
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddCallbacks(InputSystem_Actions.IPlayerActions instance)
+    parameters:
+    - id: instance
+      type: Global.InputSystem_Actions.IPlayerActions
+    content.vb: Public Sub AddCallbacks(instance As InputSystem_Actions.IPlayerActions)
+  overload: Global.InputSystem_Actions.PlayerActions.AddCallbacks*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.PlayerActions.RemoveCallbacks(InputSystem_Actions.IPlayerActions)
+  commentId: M:Global.InputSystem_Actions.PlayerActions.RemoveCallbacks(InputSystem_Actions.IPlayerActions)
+  id: RemoveCallbacks(InputSystem_Actions.IPlayerActions)
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: RemoveCallbacks(InputSystem_Actions.IPlayerActions)
+  nameWithType: InputSystem_Actions.PlayerActions.RemoveCallbacks(InputSystem_Actions.IPlayerActions)
+  fullName: InputSystem_Actions.PlayerActions.RemoveCallbacks(InputSystem_Actions.IPlayerActions)
+  type: Method
+  source:
+    id: RemoveCallbacks
+    path: ''
+    startLine: 59395
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RemoveCallbacks(InputSystem_Actions.IPlayerActions instance)
+    parameters:
+    - id: instance
+      type: Global.InputSystem_Actions.IPlayerActions
+    content.vb: Public Sub RemoveCallbacks(instance As InputSystem_Actions.IPlayerActions)
+  overload: Global.InputSystem_Actions.PlayerActions.RemoveCallbacks*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InputSystem_Actions.PlayerActions.SetCallbacks(InputSystem_Actions.IPlayerActions)
+  commentId: M:Global.InputSystem_Actions.PlayerActions.SetCallbacks(InputSystem_Actions.IPlayerActions)
+  id: SetCallbacks(InputSystem_Actions.IPlayerActions)
+  parent: Global.InputSystem_Actions.PlayerActions
+  langs:
+  - csharp
+  - vb
+  name: SetCallbacks(InputSystem_Actions.IPlayerActions)
+  nameWithType: InputSystem_Actions.PlayerActions.SetCallbacks(InputSystem_Actions.IPlayerActions)
+  fullName: InputSystem_Actions.PlayerActions.SetCallbacks(InputSystem_Actions.IPlayerActions)
+  type: Method
+  source:
+    id: SetCallbacks
+    path: ''
+    startLine: 59401
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetCallbacks(InputSystem_Actions.IPlayerActions instance)
+    parameters:
+    - id: instance
+      type: Global.InputSystem_Actions.IPlayerActions
+    content.vb: Public Sub SetCallbacks(instance As InputSystem_Actions.IPlayerActions)
+  overload: Global.InputSystem_Actions.PlayerActions.SetCallbacks*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.InputSystem_Actions.PlayerActions.#ctor*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.#ctor
+  name: PlayerActions
+  nameWithType: InputSystem_Actions.PlayerActions.PlayerActions
+  fullName: InputSystem_Actions.PlayerActions.PlayerActions
+- uid: Global.InputSystem_Actions
+  commentId: T:Global.InputSystem_Actions
+  name: InputSystem_Actions
+  nameWithType: InputSystem_Actions
+  fullName: InputSystem_Actions
+- uid: Global.InputSystem_Actions.PlayerActions.Move*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.Move
+  name: Move
+  nameWithType: InputSystem_Actions.PlayerActions.Move
+  fullName: InputSystem_Actions.PlayerActions.Move
+- uid: Global.InputAction
+  isExternal: true
+  name: InputAction
+  nameWithType: InputAction
+  fullName: InputAction
+- uid: Global.InputSystem_Actions.PlayerActions.Look*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.Look
+  name: Look
+  nameWithType: InputSystem_Actions.PlayerActions.Look
+  fullName: InputSystem_Actions.PlayerActions.Look
+- uid: Global.InputSystem_Actions.PlayerActions.Interact*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.Interact
+  name: Interact
+  nameWithType: InputSystem_Actions.PlayerActions.Interact
+  fullName: InputSystem_Actions.PlayerActions.Interact
+- uid: Global.InputSystem_Actions.PlayerActions.Get*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.Get
+  name: Get
+  nameWithType: InputSystem_Actions.PlayerActions.Get
+  fullName: InputSystem_Actions.PlayerActions.Get
+- uid: Global.InputActionMap
+  isExternal: true
+  name: InputActionMap
+  nameWithType: InputActionMap
+  fullName: InputActionMap
+- uid: Global.InputSystem_Actions.PlayerActions.Enable*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.Enable
+  name: Enable
+  nameWithType: InputSystem_Actions.PlayerActions.Enable
+  fullName: InputSystem_Actions.PlayerActions.Enable
+- uid: Global.InputSystem_Actions.PlayerActions.Disable*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.Disable
+  name: Disable
+  nameWithType: InputSystem_Actions.PlayerActions.Disable
+  fullName: InputSystem_Actions.PlayerActions.Disable
+- uid: Global.InputSystem_Actions.PlayerActions.enabled*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.enabled
+  name: enabled
+  nameWithType: InputSystem_Actions.PlayerActions.enabled
+  fullName: InputSystem_Actions.PlayerActions.enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.InputSystem_Actions.PlayerActions.op_Implicit*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.op_Implicit
+  name: Implicit
+  nameWithType: InputSystem_Actions.PlayerActions.Implicit
+  fullName: InputSystem_Actions.PlayerActions.Implicit
+  nameWithType.vb: InputSystem_Actions.PlayerActions.Widening
+  fullName.vb: InputSystem_Actions.PlayerActions.Widening
+  name.vb: Widening
+- uid: Global.InputSystem_Actions.PlayerActions
+  commentId: T:Global.InputSystem_Actions.PlayerActions
+  name: InputSystem_Actions.PlayerActions
+  nameWithType: InputSystem_Actions.PlayerActions
+  fullName: InputSystem_Actions.PlayerActions
+- uid: Global.InputSystem_Actions.PlayerActions.AddCallbacks*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.AddCallbacks
+  name: AddCallbacks
+  nameWithType: InputSystem_Actions.PlayerActions.AddCallbacks
+  fullName: InputSystem_Actions.PlayerActions.AddCallbacks
+- uid: Global.InputSystem_Actions.IPlayerActions
+  commentId: T:Global.InputSystem_Actions.IPlayerActions
+  name: InputSystem_Actions.IPlayerActions
+  nameWithType: InputSystem_Actions.IPlayerActions
+  fullName: InputSystem_Actions.IPlayerActions
+- uid: Global.InputSystem_Actions.PlayerActions.RemoveCallbacks*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.RemoveCallbacks
+  name: RemoveCallbacks
+  nameWithType: InputSystem_Actions.PlayerActions.RemoveCallbacks
+  fullName: InputSystem_Actions.PlayerActions.RemoveCallbacks
+- uid: Global.InputSystem_Actions.PlayerActions.SetCallbacks*
+  commentId: Overload:Global.InputSystem_Actions.PlayerActions.SetCallbacks
+  name: SetCallbacks
+  nameWithType: InputSystem_Actions.PlayerActions.SetCallbacks
+  fullName: InputSystem_Actions.PlayerActions.SetCallbacks

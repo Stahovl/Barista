@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DisposableAction
+  commentId: T:Global.DisposableAction
+  id: DisposableAction
+  parent: Global
+  children:
+  - Global.DisposableAction.#ctor(Action)
+  - Global.DisposableAction.Dispose
+  langs:
+  - csharp
+  - vb
+  name: DisposableAction
+  nameWithType: DisposableAction
+  fullName: DisposableAction
+  type: Class
+  source:
+    id: DisposableAction
+    path: ''
+    startLine: 59796
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class DisposableAction : IDisposable'
+    content.vb: >-
+      Public Class DisposableAction
+          Inherits IDisposable
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DisposableAction.#ctor(Action)
+  commentId: M:Global.DisposableAction.#ctor(Action)
+  id: '#ctor(Action)'
+  parent: Global.DisposableAction
+  langs:
+  - csharp
+  - vb
+  name: DisposableAction(Action)
+  nameWithType: DisposableAction.DisposableAction(Action)
+  fullName: DisposableAction.DisposableAction(Action)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 59800
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public DisposableAction(Action action)
+    parameters:
+    - id: action
+      type: Global.Action
+    content.vb: Public Sub New(action As Action)
+  overload: Global.DisposableAction.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DisposableAction.Dispose
+  commentId: M:Global.DisposableAction.Dispose
+  id: Dispose
+  parent: Global.DisposableAction
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: DisposableAction.Dispose()
+  fullName: DisposableAction.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 59805
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Global.DisposableAction.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.DisposableAction.#ctor*
+  commentId: Overload:Global.DisposableAction.#ctor
+  name: DisposableAction
+  nameWithType: DisposableAction.DisposableAction
+  fullName: DisposableAction.DisposableAction
+- uid: Global.Action
+  commentId: '!:Global.Action'
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.DisposableAction.Dispose*
+  commentId: Overload:Global.DisposableAction.Dispose
+  name: Dispose
+  nameWithType: DisposableAction.Dispose
+  fullName: DisposableAction.Dispose
