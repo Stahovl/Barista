@@ -2,45 +2,43 @@ name: Build and Deploy Documentation
 
 on:
   push:
-    branches: [ master, main ]  # Запуск при пуше в основную ветку
+    branches: [ master, main ]  
     paths:
-      - 'Documentation/**'      # Запуск только при изменении файлов в Documentation
-      - 'Assets/**/*.cs'        # И при изменении C# файлов
-  workflow_dispatch:            # Возможность запуска вручную
+      - 'Documentation/**'      
+      - 'Assets/**/*.cs'        
+  workflow_dispatch:            
+
+permissions:
+  contents: write              # Добавлено разрешение на запись
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # Шаг 1: Проверяем репозиторий
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3    # Обновлена версия
 
-      # Шаг 2: Устанавливаем .NET SDK
       - name: Setup .NET
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v3  # Обновлена версия
         with:
-          dotnet-version: 6.x
+          dotnet-version: 7.x      # Обновлена версия .NET
 
-      # Шаг 3: Устанавливаем DocFX
       - name: Setup DocFX
         run: dotnet tool update -g docfx
 
-      # Шаг 4: Добавление пустого файоа .bojekyll для удаления стилей от gh pages
-      - name: Create .nojekyll file
-        run: echo "" > docs/_site/.nojekyll
+      # Сначала копируем README и собираем документацию
+      - name: Build Documentation
+        run: |
+          cp README.md Documentation/index.md
+          docfx Documentation/docfx.json
 
-      # Шаг 5: Собираем документацию
-      - name: Use README.md as index.md
-        run: cp README.md Documentation/index.md
+      # Потом создаём .nojekyll в правильной директории
+      - name: Create .nojekyll
+        run: touch _site/.nojekyll
 
-      - name: Build
-        run: docfx Documentation/docfx.json
-
-      # Шаг 6: Деплоим в GitHub Pages
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: _site      # Папка с построенной документацией
-          branch: gh-pages   # Ветка для деплоя
-          clean: true        # Очищать ветку перед деплоем
+          folder: _site
+          branch: gh-pages
+          clean: true
