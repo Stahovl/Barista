@@ -9,30 +9,28 @@ on:
   workflow_dispatch:            
 
 permissions:
-  contents: write              # Добавлено разрешение на запись
+  contents: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3    # Обновлена версия
+        uses: actions/checkout@v3
 
       - name: Setup .NET
-        uses: actions/setup-dotnet@v3  # Обновлена версия
+        uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 7.x      # Обновлена версия .NET
+          dotnet-version: 8.x
 
       - name: Setup DocFX
         run: dotnet tool update -g docfx
 
-      # Сначала копируем README и собираем документацию
       - name: Build Documentation
         run: |
           cp README.md Documentation/index.md
           docfx Documentation/docfx.json
 
-      # Потом создаём .nojekyll в правильной директории
       - name: Create .nojekyll
         run: touch _site/.nojekyll
 

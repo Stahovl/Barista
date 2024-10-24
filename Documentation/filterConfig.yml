@@ -1,4 +1,13 @@
 apiRules:
+- exclude:
+    uidRegex: ^Tests
+    type: Namespace
+- exclude:
+    uidRegex: .*Tests$
+    type: Type
+- exclude:
+    uidRegex: .*Editor.*
+    type: Type
 - include:
     uidRegex: ^Barista
     type: Namespace

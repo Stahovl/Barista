@@ -1,13 +1,22 @@
 {
     "metadata": [
         {
-            "src": [
-                {
-                    "src": "..",
-                    "files": ["Assets/**/*.cs"],
-                    "exclude": [ "**/bin/**", "**/obj/**", "**/Packages/**", "**/Library/**" ]
-                }
-            ],
+           "src": [
+            {
+                "src": "..",
+                "files": ["Assets/**/*.cs"],
+                "exclude": [
+                    "**/bin/**",
+                    "**/obj/**",
+                    "**/Packages/**",
+                    "**/Library/**",
+                    "**/Tests/**",
+                    "**/UnitTests/**",
+                    "**/Editor/**",
+                    "Assets/Plugins/Zenject/OptionalExtras/UnitTests/**"
+                ]
+            }
+        ],
             "globalNamespaceId": "Global",
             "filter": "filterConfig.yml",
             "dest": "api"
