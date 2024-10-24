@@ -1,42 +1,62 @@
 name: Build and Deploy Documentation
-
 on:
   push:
-    branches: [ master, main ]  
-    paths:
-      - 'Documentation/**'      
-      - 'Assets/**/*.cs'        
-  workflow_dispatch:            
-
-permissions:
-  contents: write
+    branches:
+      - master
+      - main
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+  # Сборка документации
+  build:
+    runs-on: windows-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
+      - name: Install DocFX
+        run: choco install -y docfx
+
+      - name: Use README.md as index.md
+        run: copy README.md Documentation\index.md
+        shell: cmd
+
+      - name: Build
+        run: docfx Documentation/docfx.json
+
+      - name: Create .nojekyll file
+        run: type nul > _site/.nojekyll
+        shell: cmd
+        
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v3
         with:
-          dotnet-version: 8.x
+          name: _site
+          path: _site
 
-      - name: Setup DocFX
-        run: dotnet tool update -g docfx
+  # Деплой документации в ветку gh-pages
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - name: Build Documentation
-        run: |
-          cp README.md Documentation/index.md
-          docfx Documentation/docfx.json
+      - name: Download site artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: _site
+          path: _site
 
-      - name: Create .nojekyll
+      # Создаем .nojekyll снова после загрузки артефакта
+      - name: Create .nojekyll file
         run: touch _site/.nojekyll
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          folder: _site
-          branch: gh-pages
-          clean: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: _site
