@@ -1,0 +1,464 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://stahovl.github.io/Barista/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://stahovl.github.io/Barista/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "D:/UnityProject/Barista/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.CharacterBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.CharacterBase.html",
+          "hash": "sGmS3pCHksc0eA9YQbgoIAT+drQKQWtRPlXmVCgUao0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DisposableAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DisposableAction.html",
+          "hash": "FPrPN3b+DlQpRUnqEAl2wokjTHHv/FttvdgixkwaslU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GameInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GameInstaller.html",
+          "hash": "zLCGSJDQd3eSqN/N0ECNwSGHFUGz+55bTs1fzrNF0pw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IState.html",
+          "hash": "BW/EodmMNoTFSmN9hFuXkB8cP8XkpU1bWDf0Oo6+STg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputHandler.html",
+          "hash": "0JIoOumjREjFM2MY4gfpXC75QXeaJZ/dZjXM30BlDEY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputSystem_Actions.IPlayerActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputSystem_Actions.IPlayerActions.html",
+          "hash": "B+SeGc5tH/gFFf4mVRYoxHL4/AOUkra0ctux1bUAz3Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputSystem_Actions.IUIActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputSystem_Actions.IUIActions.html",
+          "hash": "I4silvngSP1o42F/AlRV7EAGlsEZQE2a1jSLOXQ7vsE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputSystem_Actions.PlayerActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputSystem_Actions.PlayerActions.html",
+          "hash": "ZxA5NKCXkgIJGJI+SHwXjBM74j4n+/k9iN1iH+0Yx3E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputSystem_Actions.UIActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputSystem_Actions.UIActions.html",
+          "hash": "9l+USJo0hrSgoc19fZ1ZIx0x48K3Jt+uNvsR5Jr97SM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.InputSystem_Actions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.InputSystem_Actions.html",
+          "hash": "pm/6tzGpqqnU0g2yAKEVweZXlra1Us2gnZ4F76GKonE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Movement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Movement.html",
+          "hash": "VsFnf+hOJl8qLfExHs1Kajonj28Y2L6CjqPBOAOcYHI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPCIdleState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPCIdleState.html",
+          "hash": "/GT29A3tFp+RXp2nT9OfhQmHxz2V6ylb11bxfk6Vrkw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPCModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPCModel.html",
+          "hash": "iO/dUEifQ5A4zIWgiq4JArMad94aXji7cAWM1Y5+N+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPCPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPCPresenter.html",
+          "hash": "c+c3gFmRFcpSlWQxzLRcDszPcwL3EcCHq8wo8mbs+Ek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.NPCView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.NPCView.html",
+          "hash": "eZcwK/EzxvE29DjeKouyzOsH8SyvCGDlyLxlsNiK2W8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerIdleState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerIdleState.html",
+          "hash": "XzZ6ST5RnJFfO6t+oQN6BjFVLc4hLlUQ9xOydLF3fe0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerInstaller.html",
+          "hash": "JBOLga/C54EqHNVJgyzWe+vb6Smp9kh1sUX6qjpWakk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerModel.html",
+          "hash": "MqJ5HjmGDoNUUrKvKtnkoNwUhxhtvwsYxbiophRDtug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerPresenter.html",
+          "hash": "z6gCcX1YhJ+R2M3KL5ryF+5KP9oljB+p6wD+QzzDHHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerView.html",
+          "hash": "yJq+ohkJ01mNt9jCIIf4wv9jaXXM4noWniNojvNKt/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ReactiveProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ReactiveProperty-1.html",
+          "hash": "+R3TNy7ekPAtuw0pb0Th35TLb42qD13oF21SlEO2HeE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.StateMachine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.StateMachine.html",
+          "hash": "WpDrc7XuaTJGaDW2k2WjCpQYyb60uxT6ZBECQRoxoXc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UIIDGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UIIDGenerator.html",
+          "hash": "9Uxi0UXqIxzMQ4jEx8oRBb0hCmDAI5XnbJjNfP78hpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.WalkState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.WalkState.html",
+          "hash": "XlGiD+IZVR4joXyutInhBNzEsDj63LM3jo2v0D2TfQs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "vqnRx5D5m8WL7xTnsQbS7ip6AaQDa6dPJPkN2xVX2Mk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "JIX37WUeuO45Pq0T6bSzdxAOopTo4Ipvu5S5Rsr85PE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/coniunctis.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/coniunctis.html",
+          "hash": "RN9XU+1+Lv0V0U9/iqO7T9U4OTAvklQQU4hwCTWO4bs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/etiam.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/etiam.html",
+          "hash": "WCywvwoluvCB1lYGNcPCDj6R9J6UIEh3re2XzoBrMrg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "rP+c9KPLMLO+q5u7rC7ci/iMYXqbmZC8g5PeGCEXGU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleManual.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleManual.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleScriptingApi.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleScriptingApi.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "yJmrE3yX1pNdaVuwjza5/7HGejso5LoAwSufMStobAY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 25,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
