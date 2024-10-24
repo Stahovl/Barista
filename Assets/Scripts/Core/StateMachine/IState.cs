@@ -1,3 +1,6 @@
+/// <summary>
+/// State machine interface
+/// </summary>
 public interface IState
 {
    public void Enter();
